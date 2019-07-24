@@ -1,8 +1,8 @@
----
+﻿---
 layout: page
-title: 今、情热が岚になって
+title: I'm loyal to nothing except the dream.
 showtag:
-- ICPC模板
+- 分类
 ---
 ## 近期
 
