@@ -1,1 +1,9 @@
+title: Ender
+email:1422112890@qq.com
+
+baseurl: ""
+url: "http://ender-coder.github.io"
+github_username: Ender-coder
+
+markdown: kramdown
 theme: jekyll-theme-architect
