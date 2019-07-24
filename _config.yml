@@ -157,8 +157,6 @@ sidebar:
     enable: true
     img: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=600 # 头像的地址
     info: <br>SYSU18级在读<br>计算机类<br>喜欢捣鼓<br>坎爷nb # 头像背后的信息
-  
-/*description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'*/
 
   social:
   - title: 1422112890 # qq
@@ -171,13 +169,6 @@ sidebar:
   - title: github # email
     href: //github.com/ender-coder
     class: 'fa fa-github fa-fw'
-
-  /*- title: Ender # codeforces
-    href: //codeforces.com/profile/WuK
-    class: 'fa fa-bar-chart fa-fw'
-  - title: Ender # vjudge
-    href: //vjudge.net/user/WuK
-    class: 'fa fa-smile-o fa-fw'*/
 
   nav:
   - title: '<span class="fa fa-home fa-fw"></span>&nbsp;首页'
