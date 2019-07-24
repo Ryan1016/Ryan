@@ -155,7 +155,7 @@ baidu-push: true
 sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
-    img: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=600 # 头像的地址
+    img: /public/image/spider-man.jpg # 头像的地址
     info: <br>SYSU18级在读<br>计算机类<br>喜欢捣鼓<br>坎爷nb # 头像背后的信息
 
   social:
@@ -209,7 +209,7 @@ busuanzi:
 
 run-time:
   enable: true
-  start-time: '24/07/2019 00:00:00' # 这是我第一篇CSDN博客的时间
+  start-time: '07/24/2019 00:00:00' # 这是我第一篇CSDN博客的时间
   alert: 努力运行
   day: 天
   hour: 时
