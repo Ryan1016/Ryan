@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
 title: my first article
-data: 2019-7-24 21:13:00 +0800
+tags: 程序设计
 ---
 
 ## test
