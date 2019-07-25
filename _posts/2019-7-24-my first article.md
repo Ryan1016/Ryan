@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: my first article
 tags: 程序设计
