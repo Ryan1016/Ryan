@@ -1,14 +1,13 @@
 ﻿---
 layout: page
-title: Do what you most want to do.
+title: 心之所向便是光
 showtag:
 - 程序设计
 ---
-> "I'm loyal to nothing except the dream."   --Captain America
 
-> "With great power comes great responsibility"   --Spider-man
+> "I'm loyal to nothing except the dream."   ---Captain America  
 
-> "I don't think that bolt of lightning struck you, Barry. I think it chose you." --The Flash
+---
 
 ## 近期
 
@@ -43,3 +42,8 @@ showtag:
 {% endfor %}
 
 {% endfor %}
+
+---
+
+> "With great power comes great responsibility"   ---Spider-man  
+> "I don't think that bolt of lightning struck you, Barry. I think it chose you." ---The Flash  
