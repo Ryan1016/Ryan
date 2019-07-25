@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Do what you most want to do.
 showtag:
