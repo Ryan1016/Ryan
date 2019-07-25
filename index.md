@@ -44,5 +44,10 @@ showtag:
 
 ---
 > "With great power comes great responsibility"   ---Spider-man  
+<<<<<<< HEAD
 >   
 > "I don't think that bolt of lightning struck you, Barry. I think it chose you." ---The Flash  
+=======
+>  
+> "I don't think that bolt of lightning struck you, Barry. I think it chose you." ---The Flash  
+>>>>>>> ac8d9cf5ee5cd2d37a6bafd630abc6b0d6144822
