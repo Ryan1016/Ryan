@@ -1,6 +1,6 @@
 ﻿title: Ender
 url: https://ender-coder.github.io
-baseurl: 'https://ender-coder.github.io' # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
+baseurl: 'https://ender-coder.github.io'
 author: Ender
 
 permalink: /posts/:categories/:title # 博文目录
@@ -58,13 +58,13 @@ head: # 删改前确定知道自己在做什么
     value: RSS
   - key: type
     value: application/rss+xml
-- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
+- tag: link # 网站大图标
   var:
   - key: rel
     value: apple-touch-icon-precomposed
   - key: href
     value: /public/image/spider-man.jpg
-- tag: link # 小图标，同上
+- tag: link # 网站小图标
   var:
   - key: rel
     value: 'shortcut icon'
