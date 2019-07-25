@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: 心之所向便是光
 showtag:
