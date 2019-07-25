@@ -2,8 +2,10 @@
 layout: page
 title: I'm loyal to nothing except the dream.
 showtag:
-- ICPC模板
+- 分类
 ---
+
+
 ## 近期
 
 {% for post in site.posts limit:5 %}
