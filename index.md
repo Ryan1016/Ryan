@@ -1,10 +1,14 @@
 ﻿---
 layout: page
-title: I'm loyal to nothing except the dream.
+title: Do what you most want to do.
 showtag:
-- 分类
+- 程序设计
 ---
+> "I'm loyal to nothing except the dream."   --Captain America
 
+> "With great power comes great responsibility"   --Spider-man
+
+> "I don't think that bolt of lightning struck you, Barry. I think it chose you." --The Flash
 
 ## 近期
 
