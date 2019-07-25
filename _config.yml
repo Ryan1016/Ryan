@@ -156,7 +156,7 @@ sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
     img: /public/image/spider-man.jpg # 头像的地址
-    info: <br>SYSU18级在读<br>计算机类<br>喜欢捣鼓<br>坎爷nb # 头像背后的信息
+    info: <br>SYSU18级在读<br>计算机类<br>喜欢捣鼓<br>热爱超英<br>坎爷nb # 头像背后的信息
 
   social:
   - title: 1422112890 # qq
@@ -209,7 +209,7 @@ busuanzi:
 
 run-time:
   enable: true
-  start-time: '07/24/2019 00:00:00' # 这是我第一篇CSDN博客的时间
+  start-time: '07/24/2019 00:00:00' # 这是我克隆博客并部署运行的第一天
   alert: 努力运行
   day: 天
   hour: 时
