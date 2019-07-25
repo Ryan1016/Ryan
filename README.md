@@ -7,7 +7,7 @@ permalink: /about
 
 1. 本博客Fork了坎爷的个人博客[wu-kan/wu-kan.github.io](https://github.com/wu-kan/wu-kan.github.io)并在此基础上进行改造。
 2. 配置教程参见坎爷的博文[基于Jekyll搭建个人博客](https://wu-kan.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2)。
-4. 详细配置可以参见[这篇博文](https://wu-kan.github.io/posts/博客搭建/基于Jekyll搭建个人博客)。
+3. 详细配置可以参见[这篇博文](https://wu-kan.github.io/posts/博客搭建/基于Jekyll搭建个人博客)。
 
 ## 声明
 
