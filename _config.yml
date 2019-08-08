@@ -250,8 +250,8 @@ post:
 valine:
   enable: true
   src: //cdn.jsdelivr.net/npm/valine
-  appId: 9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz
-  appKey: NJ7RwmgrxsF7KDzlqU7YewlL
+  appId: xViI6ucIqBOwXsIxB7YGyFWu-gzGzoHsz
+  appKey: nJvn3U27Xay2sVJ3rXtOj5yB
   notify: true # 评论回复邮件提醒
   verify: true # 验证码服务
   avatar: identicon
