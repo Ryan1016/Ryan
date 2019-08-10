@@ -46,6 +46,11 @@
     <div class="container content">
       {{ content }}
     </div>
+    <footer id="id_footer">
+        <div class="container">
+          Ender © 2019 All rights reserved.
+        </div>
+    </footer>
   </div>
   <label for="sidebar-checkbox" class="sidebar-toggle fa fa-bars fa-fw"></label>
   {% for s in site.script %}
@@ -53,10 +58,6 @@
   {% endfor %}
   {% include PrismJS.html %}
 </body>
-<footer id="id_footer">
-  <div class="container">
-    Ender © 2019 All rights reserved.
-  </div>
-</footer>
+
 
 </html>
