@@ -1,5 +1,5 @@
 
-#id_footer {
+.id_footer {
     height: 14rem; /*设定footer高度*/
     position: absolute; /*设定footer绝对位置在底部*/
     bottom: 0;
