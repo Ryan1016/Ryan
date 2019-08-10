@@ -4,6 +4,5 @@
     position: fixed; /*设定footer绝对位置在底部*/
     bottom: 0;
     width: 100%; /*展开footer宽度*/
-    background-color: yellow;
     margin-top:-1.5rem;
 }
