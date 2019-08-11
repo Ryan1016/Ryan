@@ -9,6 +9,6 @@
 }
 
 .container {
-    background-image: "../image/background.jpg";
+    background-image: "./public/image/background.jpg";
     background-size: cover;
 }
