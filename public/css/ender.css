@@ -1,9 +1,9 @@
 .masthead {
-    background: #ffffff;
+    background: red;
     opacity: 100%;
     /*url(/public/iamge/background.jpg);*/
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     top: 0;
     width: 100%;
 }
