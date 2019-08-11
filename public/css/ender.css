@@ -1,15 +1,11 @@
 .masthead {
-    background: red;
+    background: yellow;
     opacity: 100%;
     /*url(/public/iamge/background.jpg);*/
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     top: 0;
     width: 100%;
-}
-
-.sizebar {
-    z-index: 10;
 }
 
 #id_footer {
@@ -25,4 +21,5 @@ body {
     background-image: url(/public/image/background.png);
     background-attachment: fixed;
     background-size: cover;
+    z-index: -1;
 }
