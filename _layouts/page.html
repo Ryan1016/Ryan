@@ -51,7 +51,7 @@
   </div>
   <label for="sidebar-checkbox" class="sidebar-toggle fa fa-bars fa-fw"></label>
   {% for s in site.script %}
-  <script src="{{ s.src }}"></script>
+  <script src="{{ s.src }}" alpha="{{ s.alpha }}"></script>
   {% endfor %}
   {% include PrismJS.html %}
 </body>
