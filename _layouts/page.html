@@ -51,9 +51,8 @@
   </div>
   <label for="sidebar-checkbox" class="sidebar-toggle fa fa-bars fa-fw"></label>
   {% for s in site.script %}
-  <script src="{{ s.src }}"></script>
+  <script src="{{ s.src }}" alpha="{{ s.alpha }}"></script>
   {% endfor %}
-  <script alpha="0.3" src="//cdn.jsdelivr.net/npm/ribbon.js/dist/ribbon.min.js"></script> <!-- 单独调用彩带背景，设置了透明度-->
   {% include PrismJS.html %}
 </body>
 <footer id="id_footer">
