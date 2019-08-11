@@ -2,10 +2,8 @@
     background: #E4DAE5;
     opacity: 100%;
     /*url(/public/iamge/background.jpg);*/
-    position: fixed;
-    z-index: 1;
     top: 0;
-    width: 95%;
+    width: 100%;
 }
 
 #id_footer {
