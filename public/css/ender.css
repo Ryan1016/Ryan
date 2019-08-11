@@ -7,7 +7,7 @@
 }
 
 .container {
-    background: rbga(255, 255, 255, 0.5);
+    background-color: rbga(255, 255, 255, 0.5);
 }
 
 #id_footer {
