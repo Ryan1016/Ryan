@@ -18,7 +18,8 @@
 }
 
 body {
-    background-image: url(/public/image/background.png);
+    background-image: url(/public/image/background.jpg);
+    opacity: 45%;
     background-attachment: fixed;
     background-size: cover;
 }
