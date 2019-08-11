@@ -236,8 +236,8 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: transparent; /*修改颜色#fff;*/
-  background-color: #555;
+  color: #F5F5FA; /*修改颜色#fff;*/
+  background-color: red; /*修改颜色#555;*/
 }
 
 .sidebar-toggle:active:before,
