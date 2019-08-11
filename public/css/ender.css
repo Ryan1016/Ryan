@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.container {
+    background: rbga(255, 255, 255, 0.5);
+}
+
 #id_footer {
     height: 1.5rem; /*设定footer高度*/
     position: fixed; /*设定footer绝对位置在底部*/
