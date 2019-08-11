@@ -20,25 +20,6 @@
       </div>
     </h1>
   </div>
-  <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-  <!-- Toggleable sidebar -->
-  <div class="sidebar" id="sidebar">
-    <div class="sidebar-item">
-      {% include avatar.html %}
-      {{ site.sidebar.description }}
-      {% include social.html %}
-    </div>
-    {% include sidebar-nav.html %}
-    <div class="sidebar-item">
-      {% include simple-jekyll-search.html %}
-      {% include jekyll-table-of-contents.html %}
-      {% include busuanzi.html %}
-      {% include run-time.html %}
-      {% include copyright.html %}
-    </div>
-  </div>
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
   <div class="wrap">
@@ -57,6 +38,25 @@
   <script src="{{ s.src }}"></script>
   {% endfor %}
   {% include PrismJS.html %}
+  <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+     <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+     <!-- Toggleable sidebar -->
+     <div class="sidebar" id="sidebar">
+       <div class="sidebar-item">
+         {% include avatar.html %}
+         {{ site.sidebar.description }}
+         {% include social.html %}
+       </div>
+       {% include sidebar-nav.html %}
+       <div class="sidebar-item">
+         {% include simple-jekyll-search.html %}
+         {% include jekyll-table-of-contents.html %}
+         {% include busuanzi.html %}
+         {% include run-time.html %}
+         {% include copyright.html %}
+       </div>
+     </div>
 </body>
 <footer id="id_footer">
   <div style="text-align:center">
