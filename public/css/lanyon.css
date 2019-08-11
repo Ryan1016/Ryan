@@ -217,7 +217,7 @@ a.sidebar-nav-item:focus {
   display: block;
   padding: .25rem .75rem;
   color: #505050;
-  background-color: blue; /*#fff;*/
+  background-color: transparent; /*修改颜色#fff;*/
   border-radius: .25rem;
   cursor: pointer;
 }
@@ -236,7 +236,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #fff;
+  color: transparent; /*修改颜色#fff;*/
   background-color: #555;
 }
 
