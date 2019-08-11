@@ -1,5 +1,6 @@
 .masthead {
     background-color: blue;/*url(/public/iamge/background.jpg);*/
+    opacity: 1;
     position: fixed;
     top: 0;
     width: 100%;
