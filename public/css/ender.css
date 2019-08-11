@@ -1,7 +1,8 @@
 .masthead {
     background-color: #e5fffa;
     position: fixed;
-    top: 0;
+    top: -1.05rem;
+    width: 100%;
 }
 
 
