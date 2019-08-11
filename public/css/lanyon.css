@@ -41,7 +41,7 @@ body {
 }
 
 html {
-  font-family: "幼圆", Georgia, "Times New Roman", serif; /*PT Serif*/
+  font-family: "幼圆", "PT Serif", Georgia, "Times New Roman", serif; /*PT Serif*/
 }
 
 h1, h2, h3, h4, h5, h6 {
