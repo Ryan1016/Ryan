@@ -1,6 +1,7 @@
-/*.masthead {
-    background-color: blue;
-}*/
+.masthead {
+    background-color: #00BFFF;
+    position: fixed;
+}
 
 
 #id_footer {
