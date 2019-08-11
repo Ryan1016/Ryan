@@ -1,5 +1,5 @@
 .masthead {
-    background: #20B2AA;
+    background: #B0C4DE;
     opacity: 100%;
     /*url(/public/iamge/background.jpg);*/
     top: 0;
@@ -11,7 +11,7 @@
     position: fixed; /*设定footer绝对位置在底部*/
     bottom: 0;
     width: 100%; /*展开footer宽度*/
-    background-color: #20B2AA;
+    background-color: #B0C4DE;
     margin-top: -1.5rem;
 }
 
