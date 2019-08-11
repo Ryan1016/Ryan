@@ -22,8 +22,3 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-
-.container {
-    position: relative;
-    z-index: 0;
-}
