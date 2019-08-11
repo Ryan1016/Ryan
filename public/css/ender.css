@@ -3,7 +3,7 @@
     opacity: 100%;
     /*url(/public/iamge/background.jpg);*/
     position: fixed;
-    z-index: 0;
+    z-index: 5;
     top: 0;
     width: 100%;
 }
@@ -14,13 +14,11 @@
     bottom: 0;
     width: 100%; /*展开footer宽度*/
     background-color: #ffffff;
-    margin-top:-1.5rem;
+    margin-top: -1.5rem;
 }
 
 body {
     background-image: url(/public/image/background.png);
     background-attachment: fixed;
     background-size: cover;
-    position: relative;
-    z-index: -10;
 }
