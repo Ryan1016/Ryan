@@ -9,8 +9,17 @@
   {% endfor %}
 </head>
 
-<body
-  class="{{ site.body.theme-base }}{% if site.body.layout-reverse %} layout-reverse{% endif %}{% if site.body.sidebar-overlay %} sidebar-overlay{% endif %}">
+<body class="{{ site.body.theme-base }}{% if site.body.layout-reverse %} layout-reverse{% endif %}{% if site.body.sidebar-overlay %} sidebar-overlay{% endif %}">
+  <div class="wrap">
+    <h1 class="masthead masthead-title">
+      <div class="container">
+        {{ page.title }}
+        <a href="{{ site.baseurl }}/">
+          <small>{{ site.title }}</small>
+        </a>
+      </div>
+    </h1>
+  </div>
   <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
   <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
@@ -33,14 +42,6 @@
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
   <div class="wrap">
-    <h1 class="masthead masthead-title">
-      <div class="container">
-        {{ page.title }}
-        <a href="{{ site.baseurl }}/">
-          <small>{{ site.title }}</small>
-        </a>
-      </div>
-    </h1>
     <h3>
       <br>
     </h3>
