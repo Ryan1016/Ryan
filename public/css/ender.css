@@ -3,9 +3,9 @@
     opacity: 100%;
     /*url(/public/iamge/background.jpg);*/
     position: fixed;
-    z-index: 0;
+    z-index: 1;
     top: 0;
-    width: 80%;
+    width: 95%;
 }
 
 #id_footer {
