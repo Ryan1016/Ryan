@@ -8,4 +8,6 @@ title: 友链和留言
 
 - [Max.C](https://437436999.github.io): 室友，一起快乐学习快乐打码~
 
+- [Reborn](https://KomicaReborn.github.io): 中华好基友~
+
 {% include valine.html %}
