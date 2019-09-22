@@ -105,7 +105,7 @@ head: # 删改前确定知道自己在做什么
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css
+    value: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css
 
 body:
   theme-base: theme-base-0c # 可选的值08~0f
