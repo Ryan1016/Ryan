@@ -168,12 +168,12 @@ sidebar:
   social:
   - title: 1422112890 # qq
     class: 'fab fa-qq fa-fw'
-  - title: Ender_520 # weixin
+  - title: Ender_520 # wechat
     class: 'fab fa-weixin fa-fw'
   - title: 1422112890@qq.com # email
     href: mailto:1422112890@qq.com
     class: 'fas fa-envelope fa-fw'
-  - title: github # email
+  - title: github # github
     href: //github.com/ender-coder
     class: 'fab fa-github fa-fw'
 
@@ -217,7 +217,7 @@ busuanzi:
 run-time:
   enable: true
   start-time: '07/24/2019 00:00:00' # 这是我克隆博客并部署运行的第一天
-  alert: 努力运行
+  alert: <i class="fas fa-rocket fa-fw"></i>&nbsp;努力运行
   day: 天
   hour: 时
   minute: 分
@@ -241,7 +241,7 @@ post:
     visitor: # 需要开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
       enable: true
       unit: 次
-    copyright: '<span class="fa fa-creative-commons"></span>&nbsp;<a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
+    copyright: '<i class="far fa-copyright fa-fw"></i>&nbsp;<a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
   related:
     enable: false
     title: 相关博文
