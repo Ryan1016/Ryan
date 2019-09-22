@@ -1,19 +1,19 @@
 {% if site.post.meta.enable %}
 <small class="post-date">
   {% if site.post.meta.date %}
-  <span class="fas fa-calendar-alt fa-fw"></span>&nbsp;{{ page.date | date_to_string }}
+  <span class="fas fa-calendar-alt"></span>&nbsp;{{ page.date | date_to_string }}
   {% endif %}
   {% if site.post.meta.wordcount.enable %}
   <span
-    class="fa fa-file-text-o"></span>&nbsp;{{ page.content | strip_html | strip_newlines | remove: " " | size }}{{ site.post.meta.wordcount.unit }}
+    class="fas fa-edit"></span>&nbsp;{{ page.content | strip_html | strip_newlines | remove: " " | size }}{{ site.post.meta.wordcount.unit }}
   {% endif %}
   {% if site.post.meta.readtime.enable %}
   <span
-    class="fa fa-coffee"></span>&nbsp;{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: site.post.meta.readtime.divided_by | plus: 1 }}{{ site.post.meta.readtime.unit }}
+    class="fas fa-clock"></span>&nbsp;{{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: site.post.meta.readtime.divided_by | plus: 1 }}{{ site.post.meta.readtime.unit }}
   {% endif %}
   {% if site.post.meta.visitor.enable %}
   <span id="{{ page.url }}" class="leancloud-visitors" data-flag-title="{{ page.title }}">
-    <span class="fa fa-eye"></span>&nbsp;<span
+    <span class="fas fa-eye"></span>&nbsp;<span
       class="leancloud-visitors-count">0</span>{{ site.post.meta.visitor.unit }}
   </span>
   {% endif %}
