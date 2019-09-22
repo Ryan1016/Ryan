@@ -178,15 +178,15 @@ sidebar:
     class: 'fa fa-github fa-fw'
 
   nav:
-  - title: '<span class="fa fa-home fa-fw"></span> 首页'
+  - title: '<i class="fas fa-home"></i> 首页'
     href: /
-  - title: '<span class="fa fa-tags fa-fw"></span> 标签'
+  - title: '<i class="fas fa-tags"></i> 标签'
     href: /tags
-  - title: '<span class="fa fa-archive fa-fw"></span> 归档'
+  - title: '<i class="fas fa-folder"></i> 归档'
     href: /archive
   - title: '<i class="fas fa-comments"></i> 留言'
     href: /comments
-  - title: '<span class="fa fa-info-circle fa-fw"></span> 关于'
+  - title: '<i class="fas fa-info-circle"></i> 关于'
     href: /about
 
 simple-jekyll-search:
@@ -204,15 +204,15 @@ jekyll-table-of-contents:
 busuanzi:
   enable: true
   src: //cdn.jsdelivr.net/npm/busuanzi/bsz.pure.mini.js
-  page_pv:
-    alert: 被阅读
-    unit: 次
-  site_pv:
-    alert: 被访问
-    unit: 次
-  site_uv:
-    alert: 第
-    unit: 位访客
+  page_pv: # 阅读量
+    alert: <i class="fas fa-book-reader"></i> 
+    # unit: 次
+  site_pv: # 访问量
+    alert: <i class="fas fa-eye"></i> 
+    # unit: 次
+  site_uv: # 访客量
+    alert: <i class="fas fa-user-friends"></i> 
+    # unit: 位访客
 
 run-time:
   enable: true
