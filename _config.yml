@@ -172,10 +172,10 @@ sidebar:
     class: 'fab fa-weixin fa-fw'
   - title: 1422112890@qq.com # email
     href: mailto:1422112890@qq.com
-    class: 'fa fas-envelope fa-fw'
+    class: 'fas fa-envelope fa-fw'
   - title: github # email
     href: //github.com/ender-coder
-    class: 'fa fab-github fa-fw'
+    class: 'fab fa-github fa-fw'
 
   nav:
   - title: '<i class="fas fa-home fa-fw"></i>&emsp;首页'
