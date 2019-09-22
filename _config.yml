@@ -217,7 +217,7 @@ busuanzi:
 run-time:
   enable: true
   start-time: '07/24/2019 00:00:00' # 这是我克隆博客并部署运行的第一天
-  alert: <i class='fas fa-rocket fa-fw'></i>&nbsp;努力运行
+  alert: <i class='fas fa-rocket fa-spin fa-fw'></i>&nbsp;努力运行
   day: 天
   hour: 时
   minute: 分
