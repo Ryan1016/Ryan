@@ -27,6 +27,8 @@ permalink: /about
 
 - 使用了[jsdelivr](https://www.jsdelivr.com/)提供的CDN加速服务，感谢。
 
+- 使用了[Font Awesome](https://fontawesome.com/)图标库，感谢。
+
 - 留言和阅读量系统基于[Valine](https://valine.js.org/)和[LeanCloud](https://leancloud.cn/)，感谢。
 
 - 使用了[不蒜子](http://busuanzi.ibruce.info/)页面统计，感谢。
@@ -45,9 +47,17 @@ permalink: /about
 
 - [ ] 改变Live2D模型/尝试自己搭建API
 - [ ] 继续进行博客的改造
-- [x] 完成华容道的博客书写
+    - [ ] 重新设计主页
+    - [ ] 主页增加友链
+    - [ ] 背景图片设配不同设备（pc、ipad、Android、iphone）
+    - [ ] 调整代码块字体样式及大小
 
 ## 历程
+
+### 2019-09-22  v1.2.1
+
+- 增删侧边栏以及post-meta图标（采用图标库Font Awesome）
+- 侧边栏按钮顺序重排
 
 ### 2019-08-11  v1.2.0
 
