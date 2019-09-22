@@ -178,16 +178,16 @@ sidebar:
     class: 'fa fa-github fa-fw'
 
   nav:
-  - title: '<span class="fa fa-home fa-fw"></span>&nbsp;首页'
+  - title: '<span class="fa fa-home fa-fw"></span> 首页'
     href: /
-  - title: '<span class="fa fa-info-circle fa-fw"></span>&nbsp;关于'
-    href: /about
-  - title: '<i class="fas fa-comments"></i>&nbsp;友链和留言'
-    href: /comments
-  - title: '<span class="fa fa-tags fa-fw"></span>&nbsp;标签'
+  - title: '<span class="fa fa-tags fa-fw"></span> 标签'
     href: /tags
-  - title: '<span class="fa fa-archive fa-fw"></span>&nbsp;归档'
+  - title: '<span class="fa fa-archive fa-fw"></span> 归档'
     href: /archive
+  - title: '<i class="fas fa-comments"></i> 留言'
+    href: /comments
+  - title: '<span class="fa fa-info-circle fa-fw"></span> 关于'
+    href: /about
 
 simple-jekyll-search:
   enable: true
