@@ -205,13 +205,13 @@ busuanzi:
   enable: true
   src: //cdn.jsdelivr.net/npm/busuanzi/bsz.pure.mini.js
   page_pv: # 阅读量
-    alert: <i class="fas fa-book-reader"></i> 
+    alert: <i class="fas fa-book-reader fa-fw"></i>&emsp;
     # unit: 次
   site_pv: # 访问量
-    alert: <i class="fas fa-eye"></i> 
+    alert: <i class="fas fa-eye fa-fw"></i>&emsp;
     # unit: 次
   site_uv: # 访客量
-    alert: <i class="fas fa-user-friends"></i> 
+    alert: <i class="fas fa-user-friends fa-fw"></i>&emsp;
     # unit: 位访客
 
 run-time:
