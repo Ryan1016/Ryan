@@ -1,6 +1,3 @@
----
-	layout: null
----
 
 	window.onload = function () {
 		//配置
