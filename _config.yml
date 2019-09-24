@@ -121,9 +121,7 @@ script: # 需要在正文前调用的脚本
 - src: /public/js/mermaid.js
 - src: /public/js/prism.js
 - src: /public/js/katex.js
-# - src: /public/js/canvas-particle.js
-- src: /public/js/xezbab.js
-- src: /public/js/script.js
+- src: /public/js/canvas-particle.js
 
 mermaid: # https://github.com/knsv/mermaid
   enable: true

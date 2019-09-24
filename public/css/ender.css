@@ -19,10 +19,10 @@
     margin-top: -1.5rem;
 }
 
-/*body {
-    background-image: url(/public/image/background.jpg);
+body {
+    /*background-image: url(/public/image/background.jpg);*/
     position: relative;
     z-index: -9999;
     background-attachment: fixed;
     background-size: cover;
-}*/
+}
