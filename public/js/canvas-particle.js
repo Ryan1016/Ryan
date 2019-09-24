@@ -1,12 +1,12 @@
-var CanvasParticle = (function(){
-	function getElementByTag(name){
+var CanvasParticle = (function () {
+	function getElementByTag(name) {
 		return document.getElementsByTagName(name);
 	}
-	function getELementById(id){
+	function getELementById(id) {
 		return document.getElementById(id);
 	}
 	// 根据传入的config初始化画布
-	function canvasInit(canvasConfig){
+	function canvasInit(canvasConfig) {
 		canvasConfig = canvasConfig || {};
 		var html = getElementByTag("html")[0];
 		// 获取body作为背景
@@ -19,11 +19,11 @@ var CanvasParticle = (function(){
 
 		var canvas = {
 			element: canvasObj,
-			points : [],
+			points: [],
 			// 默认配置
 			config: {
 				vx: canvasConfig.vx || 4,
-				vy:  canvasConfig.vy || 4,
+				vy: canvasConfig.vy || 4,
 				height: canvasConfig.height || 2,
 				width: canvasConfig.width || 2,
 				count: canvasConfig.count || 100,
@@ -36,9 +36,9 @@ var CanvasParticle = (function(){
 		};
 
 		// 获取context
-		if(canvas.element.getContext("2d")){
+		if (canvas.element.getContext("2d")) {
 			canvas.context = canvas.element.getContext("2d");
-		}else{
+		} else {
 			return null;
 		}
 
@@ -49,26 +49,26 @@ var CanvasParticle = (function(){
 
 		canvas.element.style = "position: fixed; top: 0; left: 0; z-index: -1;";
 		canvasSize(canvas.element);
-		window.onresize = function(){
+		window.onresize = function () {
 			canvasSize(canvas.element);
 		}
-		body.onmousemove = function(e){
+		body.onmousemove = function (e) {
 			var event = e || window.event;
 			canvas.mouse = {
 				x: event.clientX,
 				y: event.clientY
 			}
 		}
-		document.onmouseleave = function(){
+		document.onmouseleave = function () {
 			canvas.mouse = undefined;
 		}
-		setInterval(function(){
+		setInterval(function () {
 			drawPoint(canvas);
 		}, 40);
 	}
 
 	// 设置canvas大小
-	function canvasSize(canvas){
+	function canvasSize(canvas) {
 		// 获取窗口的宽高
 		// canvas.width = window.innerWeight || document.documentElement.clientWidth || document.body.clientWidth;
 		// canvas.height = window.innerWeight || document.documentElement.clientHeight || document.body.clientHeight;
@@ -83,15 +83,15 @@ var CanvasParticle = (function(){
 	}
 
 	// 画点
-	function drawPoint(canvas){
+	function drawPoint(canvas) {
 		var context = canvas.context,
 			point,
 			dist;
 		context.clearRect(0, 0, canvas.element.width, canvas.element.height);
 		context.beginPath();
-		context.fillStyle = "rgb("+ canvas.config.color +")";
-		for(var i = 0, len = canvas.config.count; i < len; i++){
-			if(canvas.points.length != canvas.config.count){
+		context.fillStyle = "rgb(" + canvas.config.color + ")";
+		for (var i = 0, len = canvas.config.count; i < len; i++) {
+			if (canvas.points.length != canvas.config.count) {
 				// 初始化所有点
 				point = {
 					x: Math.floor(Math.random() * canvas.element.width),
@@ -99,9 +99,9 @@ var CanvasParticle = (function(){
 					vx: canvas.config.vx / 2 - Math.random() * canvas.config.vx,
 					vy: canvas.config.vy / 2 - Math.random() * canvas.config.vy
 				}
-			}else{
+			} else {
 				// 处理球的速度和位置，并且做边界处理
-				point =	borderPoint(canvas.points[i], canvas);
+				point = borderPoint(canvas.points[i], canvas);
 			}
 			context.fillRect(point.x - canvas.config.width / 2, point.y - canvas.config.height / 2, canvas.config.width, canvas.config.height);
 
@@ -112,15 +112,15 @@ var CanvasParticle = (function(){
 	}
 
 	// 边界处理
-	function borderPoint(point, canvas){
+	function borderPoint(point, canvas) {
 		var p = point;
-		if(point.x <= 0 || point.x >= canvas.element.width){
+		if (point.x <= 0 || point.x >= canvas.element.width) {
 			p.vx = -p.vx;
 			p.x += p.vx;
-		}else if(point.y <= 0 || point.y >= canvas.element.height){
+		} else if (point.y <= 0 || point.y >= canvas.element.height) {
 			p.vy = -p.vy;
 			p.y += p.vy;
-		}else{
+		} else {
 			p = {
 				x: p.x + p.vx,
 				y: p.y + p.vy,
@@ -132,22 +132,22 @@ var CanvasParticle = (function(){
 	}
 
 	// 画线
-	function drawLine(context, canvas, mouse){
+	function drawLine(context, canvas, mouse) {
 		context = context || canvas.context;
-		for(var i = 0, len = canvas.config.count; i < len; i++){
+		for (var i = 0, len = canvas.config.count; i < len; i++) {
 			// 初始化最大连接数
 			canvas.points[i].max_conn = 0;
 			// point to point
-			for(var j = 0; j < len; j++){
-				if(i != j){
-					dist = Math.round(canvas.points[i].x - canvas.points[j].x) * Math.round(canvas.points[i].x - canvas.points[j].x) + 
-							Math.round(canvas.points[i].y - canvas.points[j].y) * Math.round(canvas.points[i].y - canvas.points[j].y);
+			for (var j = 0; j < len; j++) {
+				if (i != j) {
+					dist = Math.round(canvas.points[i].x - canvas.points[j].x) * Math.round(canvas.points[i].x - canvas.points[j].x) +
+						Math.round(canvas.points[i].y - canvas.points[j].y) * Math.round(canvas.points[i].y - canvas.points[j].y);
 					// 两点距离小于吸附距离，而且小于最大连接数，则画线
-					if(dist <= canvas.config.dist && canvas.points[i].max_conn <canvas.config.max_conn){
+					if (dist <= canvas.config.dist && canvas.points[i].max_conn < canvas.config.max_conn) {
 						canvas.points[i].max_conn++;
 						// 距离越远，线条越细，而且越透明
 						context.lineWidth = 0.5 - dist / canvas.config.dist;
-						context.strokeStyle = "rgba("+ canvas.config.stroke + ","+ (1 - dist / canvas.config.dist) +")"
+						context.strokeStyle = "rgba(" + canvas.config.stroke + "," + (1 - dist / canvas.config.dist) + ")"
 						context.beginPath();
 						context.moveTo(canvas.points[i].x, canvas.points[i].y);
 						context.lineTo(canvas.points[j].x, canvas.points[j].y);
@@ -158,17 +158,17 @@ var CanvasParticle = (function(){
 			}
 			// 如果鼠标进入画布
 			// point to mouse
-			if(mouse){
-				dist = Math.round(canvas.points[i].x - mouse.x) * Math.round(canvas.points[i].x - mouse.x) + 
-						Math.round(canvas.points[i].y - mouse.y) * Math.round(canvas.points[i].y - mouse.y);
+			if (mouse) {
+				dist = Math.round(canvas.points[i].x - mouse.x) * Math.round(canvas.points[i].x - mouse.x) +
+					Math.round(canvas.points[i].y - mouse.y) * Math.round(canvas.points[i].y - mouse.y);
 				// 遇到鼠标吸附距离时加速，直接改变point的x，y值达到加速效果
-				if(dist > canvas.config.dist && dist <= canvas.config.e_dist){
+				if (dist > canvas.config.dist && dist <= canvas.config.e_dist) {
 					canvas.points[i].x = canvas.points[i].x + (mouse.x - canvas.points[i].x) / 20;
 					canvas.points[i].y = canvas.points[i].y + (mouse.y - canvas.points[i].y) / 20;
 				}
-				if(dist <= canvas.config.e_dist){
+				if (dist <= canvas.config.e_dist) {
 					context.lineWidth = 1;
-					context.strokeStyle = "rgba("+ canvas.config.stroke + ","+ (1 - dist / canvas.config.e_dist) +")";
+					context.strokeStyle = "rgba(" + canvas.config.stroke + "," + (1 - dist / canvas.config.e_dist) + ")";
 					context.beginPath();
 					context.moveTo(canvas.points[i].x, canvas.points[i].y);
 					context.lineTo(mouse.x, mouse.y);
@@ -179,3 +179,20 @@ var CanvasParticle = (function(){
 	}
 	return canvasInit;
 })();
+window.onload = function () {
+	//配置
+	var config = {
+		vx: 4,//点x轴速度,正为右，负为左
+		vy: 4,//点y轴速度
+		height: 2,//点高宽，其实为正方形，所以不宜太大
+		width: 2,
+		count: 100,//点个数
+		color: "121, 162, 185",//点颜色
+		stroke: "130,255,255",//线条颜色
+		dist: 6000,//点吸附距离
+		e_dist: 20000,//鼠标吸附加速距离
+		max_conn: 10//点到点最大连接数
+	}
+	//调用
+	CanvasParticle(config);
+}
