@@ -120,8 +120,6 @@ script: # 需要在正文前调用的脚本
 - src: //cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js 
   color: '0,191,255' 
   opacity: 1 
-- src: /public/js/jquery-1.11.1.min.js 
-- src: /public/js/jquery.particleground.min.js 
 - src: //cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js # live2d
 - src: //cdn.jsdelivr.net/gh/Ender-coder/ender-coder.github.io/public/js/baidu_push.js # 百度推送
 - src: /public/js/mermaid.js
