@@ -117,9 +117,9 @@ script: # 需要在正文前调用的脚本
 - src: //cdn.jsdelivr.net/npm/ribbon.js/dist/ribbon.min.js # 彩带背景
   alpha: 0.3 # 彩带背景透明度
 - src: //cdn.bootcss.com/bootstrap/dist/js/bootstrap.min.js 
-  opacity: 1 
-- src: //cdn.bootcss.com/canvas-nest.js/dist/canvas-nest.min.js
+- src: //cdn.bootcss.com/canvas-nest.js/dist/canvas-nest.min.js 
   color: '255,20,147' 
+  opacity: 1 
 - src: //cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js # live2d
 - src: //cdn.jsdelivr.net/gh/Ender-coder/ender-coder.github.io/public/js/baidu_push.js # 百度推送
 - src: /public/js/mermaid.js
