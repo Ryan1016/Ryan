@@ -20,7 +20,7 @@
 }
 
 body {
-    /*background-image: url(/public/image/background.jpg);*/
+    background-image: url(/public/image/background.jpg);
     position: relative;
     z-index: -9999;
     background-attachment: fixed;
