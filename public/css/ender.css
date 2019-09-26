@@ -21,7 +21,7 @@
 
 body {
     background-image: url(/public/image/background.jpg);
-    max-width: 100%;
+    max-width: auto;
     height: auto;
     position: relative;
     z-index: -9999;
