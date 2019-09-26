@@ -23,7 +23,7 @@ body {
     background-image: url(/public/image/background.jpg);
     background-clip: border-box;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed, fixed;
     background-size: cover;
     z-index: -9999;
 }
