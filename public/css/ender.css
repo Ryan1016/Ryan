@@ -21,8 +21,10 @@
 
 body {
     background-image: url(/public/image/background.jpg);
+    max-width: 100%;
+    height: auto;
     position: relative;
     z-index: -9999;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
