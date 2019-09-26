@@ -21,9 +21,24 @@
 
 body {
     background-image: url(/public/image/background.jpg);
-    background-clip: border-box;
     background-repeat: no-repeat;
-    background-attachment: fixed, fixed;
     background-size: cover;
+    -webkit-background-size: cover !important; 
+    -moz-background-size: cover !important; 
+    -o-background-size: cover; 
+    background-attachment: fixed;
     z-index: -9999;
+}
+body:before{
+    content: "";
+    position: fixed;
+    z-index: -9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+    -webkit-background-size: cover !important;
+    -o-background-size: cover;
+    background-size: cover !important;
 }
