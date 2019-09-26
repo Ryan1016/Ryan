@@ -21,7 +21,6 @@
 
 body {
     background-image: url(/public/image/background.jpg);
-    background-position: center;
     background-clip: border-box;
     background-repeat: no-repeat;
     background-attachment: scroll;
