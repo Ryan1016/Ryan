@@ -21,7 +21,7 @@
 
 body {
     background-image: url(/public/image/background.jpg);
-    position: relative;
+    background-position: center;
     z-index: -9999;
     background-attachment: fixed;
     background-size: cover;
