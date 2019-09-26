@@ -4,6 +4,7 @@
     /*url(/public/iamge/background.jpg);*/
     top: 0;
     width: 100%;
+    position: fixed;
 }
 
 /*.container {
