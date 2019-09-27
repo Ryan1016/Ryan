@@ -1,6 +1,6 @@
 title: Ender
 url: https://ender-coder.github.io
-baseurl: 'https://ender-coder.github.io'
+baseurl: ''
 author: Ender
 
 permalink: /posts/:categories/:title # 博文目录
