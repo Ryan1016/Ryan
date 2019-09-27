@@ -27,12 +27,12 @@ body {
     -moz-background-size: cover !important; 
     -o-background-size: cover; 
     background-attachment: fixed;
-    z-index: -9999;
+    z-index: -1000;
 }
 body:before{
     content: "";
     position: fixed;
-    z-index: -9999;
+    z-index: -1000;
     top: 0;
     right: 0;
     bottom: 0;
