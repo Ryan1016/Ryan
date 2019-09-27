@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .wrap {
-  position: relative;
+  position: fixed;/*修改relative*/
   width: 100%;
 }
 
@@ -251,7 +251,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 30.1em) {
   .sidebar-toggle {
-    position: relative; /*修改fixed*/
+    position: fixed;
   }
 }
 
