@@ -11,16 +11,9 @@
 
 <body
   class="{{ site.body.theme-base }}{% if site.body.layout-reverse %} layout-reverse{% endif %}{% if site.body.sidebar-overlay %} sidebar-overlay{% endif %}">
-  <div class="wrap">
-    <h1 class="masthead masthead-title">
-      <div class="container">
-        {{ page.title }}
-        <a href="{{ site.baseurl }}/">
-          <small>{{ site.title }}</small>
-        </a>
-      </div>
-    </h1>
-  </div>
+  {% for node in site.script %}
+  <script {% for var in node.var %} {{ var.key }}="{{ var.value }}" {% endfor %}></script>
+  {% endfor %}
   <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
   <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
@@ -43,21 +36,25 @@
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
   <div class="wrap">
+    <h1 class="masthead masthead-title">
+      <div class="container">
+        {{ page.title }}
+        <a href="{{ site.baseurl }}/">
+          <small>{{ site.title }}</small>
+        </a>
+      </div>
+    </h1>
     <div class="container content">
       {{ content }}
     </div>
-    <h2>
-      <br>
-    </h2>
   </div>
+  <h2>
+    <br>
+  </h2>
   <label for="sidebar-checkbox" class="sidebar-toggle fa fa-bars fa-fw"></label>
-
-  {% for s in site.script %}
-  <script src="{{ s.src }}" alpha="{{ s.alpha }}" color="{{ s.color }}" opacity="{{ s.opacity }}"></script>
-  {% endfor %}
-
   {% include PrismJS.html %}
 </body>
+
 <footer id="id_footer">
   <div style="text-align:center">
     Ender © 2019 All rights reserved.
