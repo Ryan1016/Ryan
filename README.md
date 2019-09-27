@@ -7,13 +7,12 @@ permalink: /about
 
 1. 本博客Fork了坎爷的个人博客[wu-kan/wu-kan.github.io](https://github.com/wu-kan/wu-kan.github.io)并在此基础上进行改造。
 2. 配置教程参见坎爷的博文[基于Jekyll搭建个人博客](https://wu-kan.github.io/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2)。
-3. 详细配置可以参见[这篇博文](https://wu-kan.github.io/posts/博客搭建/基于Jekyll搭建个人博客)。
 
 ## 声明
 
 除特别声明或转载外，所有博文采用[署名-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)协议进行许可。
 
-博客基于[MIT License](https://github.com/wu-kan/wu-kan.github.io/blob/master/LICENSE)开源于[GitHub](https://github.com/wu-kan/wu-kan.github.io)。
+博客基于[MIT License](https://github.com/Ender-coder/ender-coder.github.io/blob/master/LICENSE)开源于[GitHub](https://github.com/Ender-coder/ender-coder.github.io)。
 
 ## 致谢
 
