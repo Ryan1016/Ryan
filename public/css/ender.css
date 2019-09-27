@@ -20,7 +20,7 @@
 }
 
 body {
-    /*background-image: url(/public/image/background.jpg);*/
+    background-image: url(/public/image/poster-about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover !important; 
