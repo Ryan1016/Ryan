@@ -19,7 +19,7 @@
   height: auto;
   top: 0;
   left: 0;
-  background: url(/public/image/poster-drop-animate2.png) repeat-x 0px 0px;
+  background: url(/public/image/poster-drop-animate1.png) repeat-x 0px 0px;
   background-size: cover;
   z-index: -999;
   animation: posterDrop1 6000s linear infinite;
@@ -36,7 +36,7 @@
   height: auto;
   top: 0;
   left: 0;
-  background: url(/public/image/poster-drop-animate1.png) repeat-x 0px 0px;
+  background: url(/public/image/poster-drop-animate2.png) repeat-x 0px 0px;
   z-index: -999;
   background-size: cover;
   animation: posterDrop2 8000s linear infinite;
