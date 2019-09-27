@@ -125,13 +125,13 @@ script: # 需要在正文前调用的脚本
     value: //cdn.jsdelivr.net/npm/ribbon.js/dist/ribbon.min.js # 彩带背景
   - key: alpha
     value: 0.3 # 彩带背景透明度
-- var:
-  - key: src
-    value: //cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js # 粒子特效背景
-  - key: color
-    value: '148,0,211' # 粒子线条颜色
-  - key: opacity
-    value: 1 # 粒子线条不透明度
+#- var:
+#  - key: src
+#    value: //cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js # 粒子特效背景
+#  - key: color
+#    value: '148,0,211' # 粒子线条颜色
+#  - key: opacity
+#    value: 1 # 粒子线条不透明度
 - var:
   - key: src
     value: //cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js # live2d
