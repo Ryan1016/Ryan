@@ -4,8 +4,8 @@ title: Hello World
 tags: 程序设计
 ---
 
-&emsp;第一篇博客，作为测试。  
-&emsp;那就按照惯例编写一个hello world吧。
+第一篇博客，作为测试。  
+- 那就按照惯例编写一个hello world吧。
 
 ```cpp
 #include <iostream>
@@ -16,3 +16,7 @@ int main(){
     return 0;
 }
 ```
+
+- 试一试 $\KaTeX$ 公式能不能正常显示  
+    斐波那契数列通项公式：
+    $a_n=\frac{1}{\sqrt{5}}\left[\left(\frac{1+\sqrt{5}}{2}\right)^n-\left(\frac{1-\sqrt{5}}{2}\right)^n\right]$
