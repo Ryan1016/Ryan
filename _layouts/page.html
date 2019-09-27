@@ -7,6 +7,7 @@
   {% for node in site.head %}
   <{{ node.tag }}{% for var in node.var %} {{ var.key }}="{{ var.value }}" {% endfor %} />
   {% endfor %}
+  <link rel="stylesheet" href="/public/css/style.css">
 </head>
 
 <body
@@ -35,6 +36,10 @@
   </div>
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
+  <div class="satic-area">
+    <div class="dynamic-area1"></div>
+    <div class="dynamic-area2"></div>
+  </div>
   <div class="wrap">
     <h1 class="masthead masthead-title">
       <div class="container">
