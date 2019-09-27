@@ -34,7 +34,6 @@ h3 {
 .sidebar-toggle {
   position: fixed;
   padding: 0.15rem;
-  z-index: 10; /*增加*/
 }
 .sidebar-toggle:before,
 .sidebar-toggle:active:before,
