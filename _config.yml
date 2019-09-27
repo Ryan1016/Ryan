@@ -3,6 +3,10 @@ url: https://ender-coder.github.io
 baseurl: ''
 author: Ender
 
+markdown: kramdown
+kramdown:
+  input: GFM # Github Flavored Markdown
+  math_engine: katex # 防止行间公式渲染错误
 permalink: /posts/:categories/:title # 博文目录
 
 head: # 删改前确定知道自己在做什么
@@ -105,13 +109,7 @@ head: # 删改前确定知道自己在做什么
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/KaTeX.min.css
-- tag: link
-  var:
-  - key: rel
-    value: stylesheet
-  - key: href
-    value: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css
+    value: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css # 在https://fontawesome.com/icons 查看支持的图标
 
 body:
   theme-base: theme-base-0c # 可选的值08~0f
@@ -119,24 +117,50 @@ body:
   sidebar-overlay: true # 开启后正文不随sidebar移动而移动
 
 script: # 需要在正文前调用的脚本
-- src: //cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js # jQuery
-- src: //cdn.jsdelivr.net/npm/ribbon.js/dist/ribbon.min.js # 彩带背景
-  alpha: 0.3 # 彩带背景透明度
-- src: //cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js # 粒子特效背景
-  color: '148,0,211' # 粒子线条颜色
-  opacity: 1 # 粒子线条不透明度
-- src: //cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js # live2d
-- src: //cdn.jsdelivr.net/gh/Ender-coder/ender-coder.github.io/public/js/baidu_push.js # 百度推送
-- src: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/KaTeX.min.js
-- src: /public/js/mermaid.js
-- src: /public/js/prism.js
-- src: /public/js/katex.js
-
-mermaid: # https://github.com/knsv/mermaid
-  enable: true
-  src: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
-  stylesheet: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
-  markdown_expand: true
+- var:
+  - key: src
+    value: //cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js # jQuery
+- var: 
+  - key: src
+    value: //cdn.jsdelivr.net/npm/ribbon.js/dist/ribbon.min.js # 彩带背景
+  - key: alpha
+    value: 0.3 # 彩带背景透明度
+- var:
+  - key: src
+    value: //cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js # 粒子特效背景
+  - key: color
+    value: '148,0,211' # 粒子线条颜色
+  - key: opacity
+    value: 1 # 粒子线条不透明度
+- var:
+  - key: src
+    value: //cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js # live2d
+- var:
+  - key: src
+    value: /public/js/baidu_push.js # 百度推送
+- var:
+  - key: src
+    value: /public/js/prism.js
+- var:
+  - key: src
+    value: /public/js/mermaid.js
+  - key: js
+    value: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  - key: stylesheet
+    value: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
+  - key: markdown_expand
+    value: true
+- var:
+  - key: src
+    value: /public/js/katex.js
+  - key: js
+    value: //cdn.jsdelivr.net/npm/katex/dist/katex.min.js
+  - key: auto_render
+    value : //cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js
+  - key: stylesheet
+    value: //cdn.jsdelivr.net/npm/katex/dist/katex.min.css
+  - key: delimiters  # 开启行内公式$\KaTeX$支持
+    value: true
 
 PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己定制，将定制的js和css替换我的/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
   enable: true
@@ -159,15 +183,6 @@ PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己
       select_code:
         enable: true
         innerHTML: 选中这段代码？
-
-katex: # KaTeX
-  enable: true
-  stylesheet: //cdn.jsdelivr.net/npm/katex/dist/katex.min.css
-  src: //cdn.jsdelivr.net/npm/katex/dist/katex.min.js
-  auto-render: //cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js
-  delimiters: true # 开启行内公式$\KaTeX$支持
-
-baidu-push: true
 
 sidebar:
   avatar: # 侧边栏显示的头像
