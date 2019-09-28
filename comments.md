@@ -8,6 +8,8 @@ title: 留言
 
 - [Max.C](https://437436999.github.io): 室友，一起快乐学习快乐打码~
 
-- [Reborn](https://KomicaReborn.github.io): 中华好基友~
+- [Reborn](https://KomicaReborn.github.io): 计科三人组×1
+
+- [林澈](https://52hert-z.github.io): 计科三人组×2
 
 {% include valine.html %}
