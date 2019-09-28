@@ -19,12 +19,9 @@
     margin-top: -1.5rem;
 }
 
-pre {
-    opacity: 1;
-}
 pre code{
-    font-size: 20% !important;
-    line-height: 1 !important;
+    font-size: 80% !important;
+    line-height: 0.5 !important;
 }
 
 body {
