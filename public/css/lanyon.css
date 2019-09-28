@@ -42,12 +42,12 @@ body {
 
 html {
   font-family: "PT Serif", Georgia, "Microsoft YaHei", "Times New Roman", serif; /*PT Serif*/
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, "幼圆", Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #313131;
   letter-spacing: -.025rem;
 }
