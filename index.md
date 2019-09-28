@@ -7,7 +7,7 @@ showtag:
 ---
 
 <h3 align="left">I'm loyal to nothing except the dream."</h3>
-<h3 align="center">——Captain America</h3>
+<h3 align="right">——Captain America&emsp;&emsp;</h3>
 
 ## 近期
 
