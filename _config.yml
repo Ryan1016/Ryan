@@ -182,12 +182,8 @@ PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己
     line_numbers: true
     autoloader: //cdn.jsdelivr.net/npm/prismjs/components/ # 根据语言自动加载的高亮插件
     toolbar:
-      show_language:
-        enable: true
-        text: 程序语言：
       select_code:
         enable: true
-        innerHTML: 选中这段代码
 
 sidebar:
   avatar: # 侧边栏显示的头像
