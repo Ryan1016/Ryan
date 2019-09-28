@@ -156,7 +156,6 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   font-weight: bold; /*增加*/
-  line-height: 200px;
   color: #bf616a;
   background-color: transparent; /*修改颜色#f9f9f9;*/
   border-radius: 3px;
