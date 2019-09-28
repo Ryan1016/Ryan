@@ -5,9 +5,9 @@ showtag:
 - 程序设计
 - 数据结构
 ---
-<h2 align="left">I'm loyal to nothing except the dream."</h2>
-<h2 align="right">---Captain America</h2>
----
+
+<h3 align="left">I'm loyal to nothing except the dream."</h3>
+<h3 align="right">---Captain America</h3>
 
 ## 近期
 
