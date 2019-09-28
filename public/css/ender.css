@@ -42,3 +42,15 @@ body:before{
     -o-background-size: cover;
     background-size: cover !important;
 }
+h1 {
+    font-size: 1.4rem;
+}
+h2 {
+    font-size: 1.3rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: 1.1rem;
+}
