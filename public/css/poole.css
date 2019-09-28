@@ -155,7 +155,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  font-weight: bold;
+  font-weight: bold; /*增加*/
   color: #bf616a;
   background-color: transparent; /*修改颜色#f9f9f9;*/
   border-radius: 3px;
@@ -166,7 +166,7 @@ pre {
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: .8rem;
-  line-height: 1.4;
+  line-height: 1;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
