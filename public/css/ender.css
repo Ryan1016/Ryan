@@ -19,6 +19,11 @@
     margin-top: -1.5rem;
 }
 
+pre {
+    font-size: 80%;
+    line-height: 1;
+}
+
 body {
     background-image: url(/public/image/poster-about.jpg);
     background-repeat: no-repeat;
