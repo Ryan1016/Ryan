@@ -184,8 +184,7 @@ PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己
     toolbar:
       show_language:
         enable: true
-        text: 猜猜这是什么语言？
-        alert: 用的是
+        text: 程序语言：
       select_code:
         enable: true
         innerHTML: 选中这段代码？
