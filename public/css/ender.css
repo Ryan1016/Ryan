@@ -20,8 +20,10 @@
 }
 
 pre {
-    opacity: 1;
-    font-size: 80%;
+    opacity: 0.7;
+}
+pre code{
+    font-size: 20%;
     line-height: 1;
 }
 
