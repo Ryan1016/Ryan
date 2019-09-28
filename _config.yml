@@ -204,6 +204,9 @@ sidebar:
   - title: 1422112890@qq.com # email
     href: mailto:1422112890@qq.com
     class: 'fas fa-envelope fa-fw'
+  - title: ender-95-27 # zhihu
+    href: //www.zhihu.com/people/ender-95-27
+    class: 'fab fa-zhihu fa-fw'
   - title: github # github
     href: //github.com/ender-coder
     class: 'fab fa-github fa-fw'
