@@ -187,7 +187,7 @@ PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己
         text: 程序语言：
       select_code:
         enable: true
-        innerHTML: 选中这段代码？
+        innerHTML: 选中这段代码
 
 sidebar:
   avatar: # 侧边栏显示的头像
