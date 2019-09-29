@@ -111,7 +111,7 @@ a.postbox-date:hover,
 .postdetail {
     width: 50%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 50px;
     position: absolute;
     float: right;
     top: 0;
