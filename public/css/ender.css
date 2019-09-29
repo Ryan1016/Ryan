@@ -95,8 +95,8 @@ h4 {
 }
 a.postbox-name:hover,
 a.postbox-name:focus,
-a.postbox-date:hover,
-a.postbox-date:focus,
+p.postbox-date:hover,
+p.postbox-date:focus,
 .postbox:hover a.postbox-name,
 .postbox:focus a.postbox-name,
 .postbox:hover a.postbox-date,
