@@ -74,6 +74,7 @@ h4 {
     background-color: white;
     box-shadow: darkgrey 5px 5px 15px 2px;
     overflow: hidden;
+    
 }
 .postdetail {
     width: 40%;
@@ -84,6 +85,7 @@ h4 {
     right: -20%;
     background-color: palevioletred;
     overflow-x: hidden;
+    display: block;
 }
 .postbox:hover .postdetail,
 .postbox:focus .postdetail{
