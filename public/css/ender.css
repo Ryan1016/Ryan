@@ -102,7 +102,7 @@ a.postbox-name:focus,
 
 p.postbox-date:hover,
 p.postbox-date:focus,
-a.postbox-name:focus p.postbox-date,
+.postbox-name:focus p.postbox-date,
 .postbox:hover p.postbox-date,
 .postbox:focus p.postbox-date {
     transform: translateX(-30%);
