@@ -108,7 +108,7 @@ a.postbox-date:hover,
     color: palevioletred;
     text-decoration: none;
     transition: 0.4s;
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.05);
 }
 
 .postdetail {
