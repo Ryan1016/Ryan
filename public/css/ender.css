@@ -93,7 +93,7 @@ a.postbox-name:hover,
     transform: translateX(-10%);
 }
 
-p.postbox-date:hover,
+a.postbox-date:hover,
 .postbox:hover a.postbox-date {
     transform: translateX(-30%);
 }
