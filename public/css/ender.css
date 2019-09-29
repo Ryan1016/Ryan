@@ -69,7 +69,7 @@ h4 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 100%;
+    width: auto;
     height: 150px;
     line-height: 75px;
     position: relative;
@@ -77,11 +77,11 @@ h4 {
     box-shadow: darkgrey 5px 5px 15px 2px;
     overflow: hidden;
 }
-@media (min-width: 38em) {
+/*@media (min-width: 38em) {
     .postbox {
         width: auto;
     }
-}
+}*/
 .postbox-click {
     display: block;
     width: 100%;
