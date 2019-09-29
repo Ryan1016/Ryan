@@ -499,7 +499,7 @@ a.pagination-item:hover {
 .theme-base-0c .container a,
 .theme-base-0c .sidebar-toggle,
 .theme-base-0c .related-posts li a:hover {
-  color: #20B2AA;
+  color: red;
 }
 
 /* Blue */
