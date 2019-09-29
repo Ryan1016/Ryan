@@ -114,9 +114,9 @@ a.postbox-date:hover,
 .postdetail {
     width: 50%;
     height: 100%;
-    padding: 15px;
+    padding: 15px 75px;
     line-height: 24px;
-    border-radius: 50px 0 0 50px;
+    border-radius: 75px 0 0 75px;
     position: absolute;
     float: right;
     top: 0;
