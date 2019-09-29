@@ -73,13 +73,15 @@ h4 {
 }
 .postdetail {
     width: 50%;
+    height: 100%;
     position: relative;
     right: 0;
     background-color: red;
-    overflow: hidden;
+    overflow-x: hidden;
 }
-.postdetail:hover,
-.postdetail:focus {
+.postbox:hover,
+.postbox:focus {
+
     transform: translateX(-50%);
     transition: 0.4s;
     
