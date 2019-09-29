@@ -76,7 +76,6 @@ h4 {
     width: 50%;
     position: relative;
     background-color: red;
-    vertical-align: middle;
     overflow: hidden;
 }
 .postdetail:hover,
