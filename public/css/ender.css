@@ -124,6 +124,7 @@ p.postbox-date:focus,
 .postdetail {
     width: 50%;
     height: 100%;
+    border-radius: 10px;
     position: absolute;
     float: right;
     top: 0;
