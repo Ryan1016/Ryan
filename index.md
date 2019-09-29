@@ -23,6 +23,12 @@ showtag:
 
 {% endfor %}
 
+{% for post in site.posts limit:5 %}
+
+<div class="postbox">[{{ post.title }}]({{ post.url }}), {{ post.date | date_to_string }}</div>
+
+{% endfor %}
+
 - [更多…](/archive)
 
 {% for tag in page.showtag %}
