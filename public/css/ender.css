@@ -86,8 +86,10 @@ h4 {
     font-size: 1.2rem;
 }
 .postbox-date {
-    color: black;
     text-align: right;
+}
+.postbox-date a {
+    color: black;
 }
 a.postbox-name:hover,
 .postbox:hover a.postbox-name {
