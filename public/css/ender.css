@@ -95,8 +95,6 @@ h4 {
 }
 a.postbox-name:hover,
 a.postbox-name:focus,
-p.postbox-date:hover a.postbox-name:focus,
-p.postbox-date:focus a.postbox-name:focus,
 .postbox:hover a.postbox-name,
 .postbox:focus a.postbox-name {
     transform: translateX(-10%);
@@ -104,7 +102,6 @@ p.postbox-date:focus a.postbox-name:focus,
 
 p.postbox-date:hover,
 p.postbox-date:focus,
-a.postbox-name:hover p.postbox-date,
 a.postbox-name:focus p.postbox-date,
 .postbox:hover p.postbox-date,
 .postbox:focus p.postbox-date {
