@@ -69,7 +69,8 @@ h4 {
     height: 80px;
     margin: 5px;
     position: relative;
-    background-color: lightblue;
+    background-color: white;
+    box-shadow: darkgrey 10px 10px 30px 5px;
     overflow: hidden;
 }
 .postdetail {
@@ -79,7 +80,7 @@ h4 {
     float: right;
     top: 0;
     right: -20%;
-    background-color: red;
+    background-color: palevioletred;
     overflow-x: hidden;
 }
 .postbox:hover .postdetail,
