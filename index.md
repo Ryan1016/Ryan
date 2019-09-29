@@ -27,7 +27,8 @@ showtag:
 
 <div class="postbox">
   <a class="postbox-click" href="{{ post.url }}">{{ post.title }}</a>
-  <div class="postdetail">{{ post.date | date_to_string }}</div>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{{ post.date | date_to_string }}
+  <div class="postdetail"></div>
 </div>
 
 {% endfor %}
