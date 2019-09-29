@@ -93,6 +93,8 @@ a.postbox-click:hover,
 a.postbox-click:focus {
     color: purple;
     text-decoration: none;
+    transform: translateX(-10%);
+    transition: 0.4s;
     background-color: rgba(0,0,0,.1);
 }
 
