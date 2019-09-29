@@ -80,7 +80,6 @@ h4 {
     width: 100%;
     height: auto;
 }
-.postbox-click :active,
 .postbox-click :hover,
 .postbox-click :focus {
     text-decoration: none;
