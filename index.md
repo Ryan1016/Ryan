@@ -28,7 +28,7 @@ showtag:
 <div class="postbox">
   <a class="postbox-name" href="{{ post.url }}">{{ post.title }}</a>
   <a class="postbox-date" href="{{ post.url }}">{{ post.date | date_to_string }}</a>
-  <div class="postdetail"></div>
+  <div class="postdetail">{{ post.description }}</div>
 </div>
 
 {% endfor %}
