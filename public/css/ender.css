@@ -69,7 +69,7 @@ h4 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     height: 150px;
     line-height: 75px;
     position: relative;
@@ -97,17 +97,17 @@ a.postbox-click:focus {
 }
 
 .postdetail {
-    width: 40%;
+    width: 50%;
     height: 100%;
     position: absolute;
     float: right;
     top: 0;
-    right: -20%;
+    right: -10%;
     background-color: palevioletred;
     overflow-x: hidden;
 }
 .postbox:hover .postdetail,
 .postbox:focus .postdetail{
-    transform: translateX(-50%);
+    transform: translateX(-80%);
     transition: 0.4s;
 }
