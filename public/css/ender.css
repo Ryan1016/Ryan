@@ -77,7 +77,7 @@ postdetail {
     width: 50%;
     height: 100%;
     position: absolute;
-    right: 0;
+    right: -20%;
     background-color: red;
     overflow-x: hidden;
 }
