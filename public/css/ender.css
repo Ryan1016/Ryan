@@ -81,10 +81,8 @@ h4 {
     background-color: red;
     overflow-x: hidden;
 }
-.postbox:hover,
-.postbox:focus {
-
+.postbox:hover .postdetail,
+.postbox:focus .postdetail{
     transform: translateX(-50%);
     transition: 0.4s;
-    
 }
