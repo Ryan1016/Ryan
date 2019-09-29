@@ -89,29 +89,19 @@ h4 {
     text-align: right;
 }
 a.postbox-name:hover,
-a.postbox-name:focus,
-.postbox:hover a.postbox-name,
-.postbox:focus a.postbox-name {
+.postbox:hover a.postbox-name {
     transform: translateX(-10%);
 }
 
 p.postbox-date:hover,
-p.postbox-date:focus,
-.postbox-name:focus p.postbox-date,
-.postbox:hover p.postbox-date,
-.postbox:focus p.postbox-date {
+.postbox:hover p.postbox-date {
     transform: translateX(-30%);
 }
 
 a.postbox-name:hover,
-a.postbox-name:focus,
 p.postbox-date:hover,
-p.postbox-date:focus,
-.postbox-name:focus p.postbox-date,
 .postbox:hover a.postbox-name,
-.postbox:focus a.postbox-name,
-.postbox:hover p.postbox-date,
-.postbox:focus p.postbox-date {
+.postbox:hover p.postbox-date {
     color: purple;
     text-decoration: none;
     transition: 0.4s;
@@ -130,9 +120,7 @@ p.postbox-date:focus,
     overflow-x: hidden;
 }
 .postdetail:hover,
-.postdetail:focus,
-.postbox:hover .postdetail,
-.postbox:focus .postdetail{
+.postbox:hover .postdetail{
     transform: translateX(-80%);
     transition: 0.4s;
 }
