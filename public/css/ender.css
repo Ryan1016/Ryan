@@ -94,14 +94,14 @@ a.postbox-name:hover,
 }
 
 p.postbox-date:hover,
-.postbox:hover p.postbox-date {
+.postbox:hover a.postbox-date {
     transform: translateX(-30%);
 }
 
 a.postbox-name:hover,
-p.postbox-date:hover,
+a.postbox-date:hover,
 .postbox:hover a.postbox-name,
-.postbox:hover p.postbox-date {
+.postbox:hover a.postbox-date {
     color: purple;
     text-decoration: none;
     transition: 0.4s;
