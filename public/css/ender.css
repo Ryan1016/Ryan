@@ -71,14 +71,14 @@ h4 {
     background-color: lightblue;
     text-align: center;
 }
-.postdetail {
+.postbox .postdetail {
     width: 50%;
     height: 80px;
     vertical-align: middle;
     overflow: hidden;
 }
-.postbox:hover,
-.postbox:focus {
+.postbox .postdetail:hover,
+.postbox .postdetail:focus {
     transform: translateX(-50%);
     transition: 0.4s;
     
