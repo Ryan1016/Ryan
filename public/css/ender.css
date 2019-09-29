@@ -74,6 +74,7 @@ h4 {
 .postbox .postdetail {
     width: 50%;
     height: 80px;
+    background-color: red;
     vertical-align: middle;
     overflow: hidden;
 }
