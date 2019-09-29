@@ -80,8 +80,8 @@ h4 {
     width: 100%;
     height: auto;
 }
-.postbox-click :hover,
-.postbox-click :focus {
+a.postbox-click:hover,
+a.postbox-click:focus {
     text-decoration: none;
     background-color: rgba(255, 0, 0, 0.5);
 }
