@@ -71,7 +71,7 @@ h4 {
     height: 150px;
     position: relative;
     background-color: white;
-    box-shadow: darkgrey 10px 10px 30px 5px;
+    box-shadow: darkgrey 5px 5px 15px 2px;
     overflow: hidden;
 }
 .postdetail {
