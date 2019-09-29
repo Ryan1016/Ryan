@@ -25,7 +25,8 @@ showtag:
 
 {% for post in site.posts limit:5 %}
 
-<div class="postbox"><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date_to_string }}</div>
+<div class="postbox"><a href="{{ post.url }}">{{ post.title }}</a><div
+<div class="postdetail">{{ post.date | date_to_string }}</div>
 
 {% endfor %}
 
