@@ -64,7 +64,7 @@ h4 {
     color: purple;
 }
 
-postbox {
+.postbox {
     width: 100%;
     height: 80px;
     margin: 5px;
@@ -73,7 +73,7 @@ postbox {
     text-align: center;
     overflow: hidden;
 }
-postdetail {
+.postdetail {
     width: 50%;
     height: 100%;
     position: absolute;
@@ -81,8 +81,8 @@ postdetail {
     background-color: red;
     overflow-x: hidden;
 }
-postbox:hover,
-postbox:focus {
+.postbox:hover,
+.postbox:focus {
 
     transform: translateX(-50%);
     transition: 0.4s;
