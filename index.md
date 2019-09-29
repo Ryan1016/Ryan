@@ -21,5 +21,5 @@ title: 心之所向便是光
 <div class="postbox">
   <a class="postbox-name" href="/archive">Show More</a>
   <a class="postbox-date" href="/archive">......</a>
-  <div class="postdetail"><br><br>&emsp;点击查看更多的博文</div>
+  <div class="postdetail"><br><br>点击查看更多的博文</div>
 </div>
