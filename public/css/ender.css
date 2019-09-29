@@ -72,9 +72,9 @@ h4 {
     text-align: center;
 }
 .postdetail {
-    float: right;
     width: 50%;
     position: absolute;
+    right: 0;
     background-color: red;
     overflow: hidden;
 }
