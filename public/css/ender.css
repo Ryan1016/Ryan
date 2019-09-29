@@ -82,7 +82,7 @@ h4 {
         width: auto;
     }
 }*/
-.postbox-click {
+.postbox-name, .postbox-date {
     display: block;
     width: 100%;
     height: auto;
@@ -90,10 +90,17 @@ h4 {
     padding-right: 100px;
     font-size: 1.5rem;
 }
-a.postbox-click:hover,
-a.postbox-click:focus,
-.postbox:hover a.postbox-click,
-.postbox:focus a.postbox-click {
+.postbox-date {
+    text-align: right;
+}
+a.postbox-name:hover,
+a.postbox-name:focus,
+a.postbox-date:hover,
+a.postbox-date:focus,
+.postbox:hover a.postbox-name,
+.postbox:focus a.postbox-name,
+.postbox:hover a.postbox-date,
+.postbox:focus a.postbox-date {
     color: purple;
     text-decoration: none;
     transform: translateX(-10%);

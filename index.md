@@ -26,8 +26,8 @@ showtag:
 {% for post in site.posts limit:5 %}
 
 <div class="postbox">
-  <a class="postbox-click" href="{{ post.url }}">{{ post.title }}
-  <br><right>{{ post.date | date_to_string }}</right></a>
+  <a class="postbox-name" href="{{ post.url }}">{{ post.title }}</a>
+  <p class="postbox-date">{{ post.date | date_to_string }}</p>
   <div class="postdetail"></div>
 </div>
 
