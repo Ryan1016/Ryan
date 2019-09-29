@@ -73,7 +73,7 @@ h4 {
 }
 .postdetail {
     width: 50%;
-    position: absolute;
+    position: relative;
     right: 0;
     background-color: red;
     overflow: hidden;
