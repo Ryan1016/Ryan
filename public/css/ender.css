@@ -77,6 +77,11 @@ h4 {
     box-shadow: darkgrey 5px 5px 15px 2px;
     overflow: hidden;
 }
+@media (min-width: 38em) {
+    .postbox {
+        width: auto;
+    }
+}
 .postbox-click {
     display: block;
     width: 100%;
