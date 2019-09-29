@@ -122,6 +122,7 @@ a.postbox-date:hover,
     top: 0;
     right: -40%;
     background-color: palevioletred;
+    text-align: center;
     overflow-x: hidden;
 }
 .postdetail:hover,

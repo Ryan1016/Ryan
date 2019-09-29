@@ -8,7 +8,7 @@ title: 心之所向便是光
 
 ## 近期
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:3 %}
 
 <div class="postbox">
   <a class="postbox-name" href="{{ post.url }}">{{ post.title }}</a>

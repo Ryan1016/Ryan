@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 tags: 程序设计
+description: 第一篇博客<br>用于测试<br>不定期更新<br>新功能试用<br>欢迎提issue
 ---
 
 第一篇博客，作为测试。  
