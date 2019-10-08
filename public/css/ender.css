@@ -121,7 +121,7 @@ a.postbox-date:hover,
     float: right;
     top: 0;
     right: -40%;
-    background-color: skyblue;
+    background-image: url(/public/image/lalala.jpg);
     text-align: center;
     overflow-x: hidden;
 }
