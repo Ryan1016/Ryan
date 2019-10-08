@@ -105,7 +105,7 @@ a.postbox-name:hover,
 a.postbox-date:hover,
 .postbox:hover a.postbox-name,
 .postbox:hover a.postbox-date {
-    color: palevioletred;
+    color: skyblue;
     text-decoration: none;
     transition: 0.4s;
     background-color: rgba(0,0,0,.05);
