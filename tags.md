@@ -4,7 +4,7 @@ title: 标签
 ---
 {% for tag in site.tags %}
 
-## <i class="fas fa-tag" style="color:skyblue"></i> {{ tag[0] }}
+## <i class="fas fa-tag" style="color:firebrick"></i> {{ tag[0] }}
 
 {% for post in tag[1] %}
 
