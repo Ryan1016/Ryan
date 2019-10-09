@@ -3,11 +3,6 @@ layout: page
 title: 心之所向便是光
 ---
 
-<h3 align="left">I'm loyal to nothing except the dream."</h3>
-<h3 align="right">——Captain America</h3>
-
-## 近期
-
 {% for post in site.posts limit:3 %}
 
 <div class="postbox">
