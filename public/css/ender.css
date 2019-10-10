@@ -6,9 +6,12 @@
     width: 100%;
 }
 
-/*.container {
-    background: rgba(255, 255, 255, 0.5);
-}*/
+.container a{
+    color: black;
+}
+.container a:hover{
+    color: LightSeaGreen;
+}
 
 #id_footer {
     height: 1.5rem; /*设定footer高度*/
@@ -105,7 +108,7 @@ a.postbox-name:hover,
 a.postbox-date:hover,
 .postbox:hover a.postbox-name,
 .postbox:hover a.postbox-date {
-    color: red;
+    color: LightSeaGreen;
     text-decoration: none;
     transition: 0.4s;
     background-color: rgba(0,0,0,.05);
