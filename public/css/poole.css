@@ -216,7 +216,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #696969; /*修改颜色#7a7a7a*/
   border-left: .25rem solid + #303030; /*修改颜色#e5e5e5;*/
 }
 blockquote p:last-child {
