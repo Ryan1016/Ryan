@@ -6,12 +6,12 @@
     width: 100%;
 }
 
-.container a{
+/*.container a{
     color: black !important;
 }
 .container a:hover{
     color: LightSeaGreen !important;
-}
+}*/
 
 #id_footer {
     height: 1.5rem; /*设定footer高度*/
