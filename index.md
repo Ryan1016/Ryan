@@ -3,7 +3,7 @@ layout: page
 title: 心之所向便是光
 ---
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:5 %}
 
 <div class="postbox">
   <a class="postbox-name" href="{{ post.url }}">{{ post.title }}</a>
