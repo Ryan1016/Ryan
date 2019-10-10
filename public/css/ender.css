@@ -10,7 +10,7 @@
     color: black !important;
 }
 .container a:hover{
-    color: LightSeaGreen;
+    color: LightSeaGreen !important;
 }
 
 #id_footer {
