@@ -1,5 +1,5 @@
 {% if site.post.meta.enable %}
-<small class="post-date">
+<h4 class="post-date">
   {% if site.post.meta.date %}
   <span class="fas fa-calendar-alt"></span>&nbsp;{{ page.date | date_to_string }}
   {% endif %}
@@ -18,7 +18,7 @@
   </span>
   {% endif %}
   {{ site.post.meta.copyright }}
-</small>
+</h4>
 {% if page.background_music %}
 <div>
   {{ page.background_music }}
