@@ -159,6 +159,7 @@ a.postbox-date:hover,
 }*/
 .card-information {
     font-family: STXihei;
+    line-height: 50px;
     position: absolute;
     margin-right: 40px;
     text-align: center;
