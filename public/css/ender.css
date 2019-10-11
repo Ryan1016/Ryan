@@ -152,6 +152,7 @@ a.postbox-date:hover,
     border-radius: 40px;
     margin: 10px 10px 10px 25px;
     overflow: hidden;
+    display: inline-block;
 }
 /*.card:hover .card-portrait {
     transfrom: 
