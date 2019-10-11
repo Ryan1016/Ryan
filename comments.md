@@ -5,7 +5,10 @@ title: 留言
 交换友链可以在评论区留言~
 
 {% for friend in site.friends %}
-<div class="card">{{ friend.name }}{{ friend.src }}</div>
+<div class="card">
+<div class="card-portrait"></div>
+{{ friend.name }}{{ friend.src }}
+</div>
 {% endfor %}
 
 - [wu-kan](https://wu-kan.github.io): 坎爷学长，在线教学，带我起飞
