@@ -92,7 +92,7 @@ h4 {
     text-align: right;
 }
 a.postbox-date {
-    color: black !important;
+    color: #505050 !important;
 }
 a.postbox-name:hover,
 .postbox:hover a.postbox-name {
