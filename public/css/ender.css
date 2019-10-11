@@ -162,6 +162,6 @@ a.postbox-date:hover,
     position: relative;
     margin-right: 40px;
     text-align: center;
-    display: inline;
+    display: inline-block;
 }
 /*友链卡片效果end*/
