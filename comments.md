@@ -10,7 +10,7 @@ title: 留言
         <a href="{{ friend.src }}"><img src="{{ friend.portrait }}"></a>
     </div>
     <div class="card-information">
-        <span style="text-align:center;font-size:6px;">{{ friend.name }}</span><br>
+        <font text-align="center" size="6px">{{ friend.name }}</span><br>
         <font size="4.5px">{{ friend.description }}</font>
     </div>
 </div>
