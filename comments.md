@@ -10,8 +10,8 @@ title: 留言
         <a href="{{ friend.src }}"><img src="{{ friend.portrait }}"></a>
     </div>
     <div class="card-information">
-        <font size="5px">{{ friend.name }}</font><br>
-        <font size="3px">{{ friend.description }}</font>
+        <font size="10px">{{ friend.name }}</font><br>
+        <font size="5px">{{ friend.description }}</font>
     </div>
 </div>
 {% endfor %}
