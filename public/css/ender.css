@@ -160,7 +160,7 @@ a.postbox-date:hover,
 .card-information {
     font-family: STXihei;
     position: absolute;
-    margin-right: 40px;
+    margin: 10px 40px 10px 0;
     text-align: center;
     display: inline-block;
 }
