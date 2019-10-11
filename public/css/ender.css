@@ -152,5 +152,6 @@ a.postbox-date:hover,
     overflow: hidden;
     margin-left: 10px;
     background-color: blue;
+    display: inline;
 }
 /*友链卡片效果end*/
