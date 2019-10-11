@@ -158,7 +158,8 @@ a.postbox-date:hover,
     transfrom: 
 }*/
 .card-information {
-    font-family: SimHei;
+    font-family: STXihei;
+    font-size: 150%;
     line-height: 50px;
     position: absolute;
     margin-right: 40px;
