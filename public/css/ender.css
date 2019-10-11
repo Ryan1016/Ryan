@@ -146,7 +146,7 @@ a.postbox-date:hover,
     overflow: hidden;
     display: inline-block;
 }
-.card-portrait a{
+a.card-portrait {
     height: 80px;
     width: 80px;
     border-radius: 40px;
