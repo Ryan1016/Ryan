@@ -142,7 +142,7 @@ a.postbox-date:hover,
     height: 100px;
     width: 48%;
     position: relative;
-    background-color: red;
+    background: transparent;
     overflow: hidden;
     display: inline-block;
 }
@@ -160,7 +160,7 @@ a.postbox-date:hover,
 .card-information {
     font-family: STXihei;
     position: absolute;
-    margin: 15px 40px 15px 0;
+    margin: 15px 40px 15px 5px;
     display: inline-block;
 }
 /*友链卡片效果end*/
