@@ -139,7 +139,7 @@ a.postbox-date:hover,
 /*友链卡片效果begin*/
 .card {
     height: 100px;
-    width: 50%;
+    width: 48%;
     position: relative;
     background-color: red;
     overflow: hidden;
