@@ -6,7 +6,7 @@ title: 留言
 
 {% for friend in site.friends %}
 <div class="card">
-<a class="card-portrait" href="{{ friend.src }}"><img src="{{ friend.portrait }}"></a>
+<a  href="{{ friend.src }}"><img src="{{ friend.portrait }}"></a>
 <div class="card-information"><strong>{{ friend.name }}</strong><br>{{ friend.description }}</div>
 </div>
 {% endfor %}
