@@ -160,7 +160,7 @@ a.postbox-date:hover,
 .card-information {
     font-family: STXihei;
     position: absolute;
-    margin: 15px 40px 15px 0;
+    margin-right: 40px;
     display: inline-block;
 }
 /*友链卡片效果end*/
