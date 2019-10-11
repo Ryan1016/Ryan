@@ -141,7 +141,6 @@ a.postbox-date:hover,
     height: 100px;
     width: 48%;
     position: relative;
-    background-color: red;
     overflow: hidden;
     display: inline-block;
 }
@@ -153,10 +152,12 @@ a.postbox-date:hover,
     margin: 10px;
     float: left;
 }
+.card:hover .card-portrait {
+    transfrom: 
+}
 .card-information {
     line-height: 50px;
     position: relative;
     text-align: center;
-
 }
 /*友链卡片效果end*/
