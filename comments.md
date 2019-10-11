@@ -6,7 +6,7 @@ title: 留言
 
 {% for friend in site.friends %}
 <div class="card">
-<div class="card-portrait" onclick="window.open('{{ friend.src }}');"><img src="{{ friend.portrait }}"></div>
+<div class="card-portrait" onclick="location.href='{{ friend.src }}'"><img src="{{ friend.portrait }}"></div>
 <div class="card-information"><strong>{{ friend.name }}</strong><br>{{ friend.description }}</div>
 </div>
 {% endfor %}
