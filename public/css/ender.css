@@ -146,19 +146,13 @@ a.postbox-date:hover,
     overflow: hidden;
     display: inline-block;
 }
-.card-portrait {
+.card-portrait a{
     height: 80px;
     width: 80px;
     border-radius: 40px;
     margin: 10px 10px 10px 25px;
     overflow: hidden;
     float: left;
-}
-.card-portrait a{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: block;
 }
 /*.card:hover .card-portrait {
     transfrom: 
