@@ -141,6 +141,7 @@ a.postbox-date:hover,
     height: 100px;
     width: 48%;
     position: relative;
+    background-color: red;
     overflow: hidden;
     display: inline-block;
 }
