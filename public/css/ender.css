@@ -138,8 +138,8 @@ a.postbox-date:hover,
 
 /*友链卡片效果begin*/
 .card {
-    height: 80px;
-    width: 80%;
+    height: 75px;
+    width: 45%;
     margin: 0 auto;
     position: relative;
     background-color: red;
