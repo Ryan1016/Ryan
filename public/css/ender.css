@@ -144,13 +144,12 @@ a.postbox-date:hover,
     position: relative;
     background-color: red;
     overflow: hidden;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 .card-portrait {
     height: 80px;
     width: 80px;
     border-radius: 40px;
-    overflow: hidden;
     margin: 10px 10px 10px 25px;
     float: left;
 }
