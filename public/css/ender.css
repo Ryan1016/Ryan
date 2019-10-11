@@ -63,6 +63,7 @@ h4 {
     font-size: 1.1rem;
 }
 
+/*主页博文卡片效果begin*/
 .postbox {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -133,3 +134,14 @@ a.postbox-date:hover,
     transform: translateX(-80%);
     transition: 0.4s;
 }
+/*主页博文卡片效果end*/
+
+/*友链卡片效果begin*/
+.card {
+    height: 100px;
+    width: 40%;
+    position: relative;
+    background-color: red;
+    overflow: hidden;
+}
+/*友链卡片效果end*/

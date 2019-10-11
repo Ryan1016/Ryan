@@ -297,6 +297,15 @@ valine:
   avatarForce: false # 每次访问强制拉取最新的评论列表头像
   recordIP: true # 记录评论者IP
 
+friends:
+  - name: wu-kan
+    src: https://wu-kan.github.io
+    description: 坎爷学长，在线教学，带我起飞
+  - name: Max.C
+    src: https://437436999.github.io
+    description: 室友，一起快乐学习快乐打码~
+  
+
 page404:
   search_children: # 腾讯公益
     enable: true
