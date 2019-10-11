@@ -158,7 +158,8 @@ a.postbox-date:hover,
     transfrom: 
 }*/
 .card-information {
-    line-height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
     position: absolute;
     margin-right: 40px;
     text-align: center;
