@@ -11,7 +11,7 @@ title: 留言
     </div>
     <div class="card-information">
         <font size="8px">{{ friend.name }}</font><br>
-        <font size="5px">{{ friend.description }}</font>
+        <font size="4px">{{ friend.description }}</font>
     </div>
 </div>
 {% endfor %}
