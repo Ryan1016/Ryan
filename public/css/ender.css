@@ -149,7 +149,7 @@ a.postbox-date:hover,
     width: 80px;
     border-radius: 40px;
     overflow: hidden;
-    margin: 10px;
+    margin: 10px 10px 10px 25px;
     float: left;
 }
 /*.card:hover .card-portrait {
@@ -158,7 +158,7 @@ a.postbox-date:hover,
 .card-information {
     line-height: 50px;
     position: relative;
-    padding-right:40px;
+    padding-right:50px;
     text-align: center;
 }
 /*友链卡片效果end*/
