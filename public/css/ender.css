@@ -161,5 +161,6 @@ a.postbox-date:hover,
     font-family: STXihei;
     position: absolute;
     margin: 15px 40px 15px 0;
+    display: inline;
 }
 /*友链卡片效果end*/
