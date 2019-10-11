@@ -155,6 +155,9 @@ a.postbox-date:hover,
     float: left;
 }
 .card-portrait a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
     display: block;
 }
 /*.card:hover .card-portrait {
