@@ -154,7 +154,7 @@ a.postbox-date:hover,
     overflow: hidden;
     float: left;
 }
-a.card-portrait {
+.card-portrait a{
     display: block;
 }
 /*.card:hover .card-portrait {
