@@ -138,11 +138,11 @@ a.postbox-date:hover,
 
 /*友链卡片效果begin*/
 .card {
-    height: 75px;
+    height: 150px;
     width: 45%;
     position: relative;
     background-color: red;
     overflow: hidden;
-    display: inline;
+    display: inline-block;
 }
 /*友链卡片效果end*/
