@@ -155,9 +155,9 @@ a.postbox-date:hover,
     display: inline-block;
 }
 .card-portrait-border {
-    height: inherit;
-    width: inherit;
-    border-radius: inherit;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
     border: 5px solid red;
 }
 /*.card-portrait-border:hover {
