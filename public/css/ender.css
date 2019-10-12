@@ -155,14 +155,10 @@ a.postbox-date:hover,
     display: inline-block;
     border: 5px solid red;
 }
-.card-portrait-border {
-    width: inherit;
-    height: inherit;
-    position: absolute;
+
+.card-portrait:hover {
+    transfrom: rotate(360deg);
 }
-/*.card:hover .card-portrait {
-    transfrom: 
-}*/
 .card-information {
     font-family: STXihei;
     position: absolute;
