@@ -158,7 +158,7 @@ a.postbox-date:hover,
 
 .card-portrait:hover {
     border-color: blue;
-    transition: border-color 0s ease-out 0.4s;
+    /*transition: border-color 0s ease-out 0.4s;*/
 }
 .card-information {
     font-family: STXihei;
