@@ -160,7 +160,7 @@ a.postbox-date:hover,
     border-radius: 40px;
 }
 .card-portrait-border::before {
-    border: 5px solid transparent;
+    border: 5px solid red;
 }
 .card-portrait-border:hover::before {
     border-top-color: blue;
