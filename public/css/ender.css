@@ -154,15 +154,7 @@ a.postbox-date:hover,
     overflow: hidden;
     display: inline-block;
 }
-.card-portrait-border {
-    height: 80px;
-    width: 80px;
-    border-radius: 40px;
-}
-.card-portrait-border::before {
-    border: 5px solid red;
-}
-.card-portrait-border:hover::before {
+.card-portrait-border:hover {
     border-top-color: blue;
     border-right-color: blue;
     border-bottom-color: blue;
