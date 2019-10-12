@@ -160,7 +160,7 @@ a.postbox-date:hover,
     border-right-color: blue;
     border-bottom-color: blue;
     border-left-color: blue;
-    transition: width 0.25s linear, height 0.25s linear;
+    transition: width 5s linear, height 5s linear;
     /*transition: border-top-color 1.5s linear, border-right-color 1.5s linear 1s, border-bottom-color 1.5s linear 2s;*/
 }
 
