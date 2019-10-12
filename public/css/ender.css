@@ -158,18 +158,25 @@ a.postbox-date:hover,
     height: 80px;
     width: 80px;
     border-radius: 40px;
-    border: 5px solid red;
 }
-.card-portrait-border:hover {
-    border-left-width: 5px;
-    border-right-width: 5px;
-    transform: rotate(270deg);
-    transition: transform 4s linear 0s, border-left-width 0s linear 3.5s;
+.card-portrait-border::before {
+    border: 5px solid transparent;
+}
+.card-portrait-border:hover::before {
     border-top-color: blue;
     border-right-color: blue;
     border-bottom-color: blue;
     transition: border-top-color 1.5s linear, border-right-color 1.5s linear 1s, border-bottom-color 1.5s linear 2s;
-
+}
+.card-portrait-border::after {
+    border: 0 solid transparent;
+}
+.card-portrait-border:hover::after {
+    border-top: 5px solid blue;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    transform: rotate(270deg);
+    transition: transform 4s linear 0s, border-left-width 0s linear 3.5s;
 }
 
 .card-information {
