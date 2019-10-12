@@ -162,9 +162,6 @@ a.postbox-date:hover,
     border-right-color: blue;
     transition: border-top-color 0.4s linear, border-right-color 0.4s linear 0.4s;
 }
-.card-portrait::after {
-    border: 0 solid red;
-}
 /*.card-portrait:hover::after {
     border-top: 5px solid blue;
     border-right: 5px solid blue;
