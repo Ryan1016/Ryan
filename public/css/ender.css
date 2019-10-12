@@ -147,16 +147,20 @@ a.postbox-date:hover,
     display: inline-block;
 }
 .card-portrait {
-    content: '';
     height: 80px;
     width: 80px;
     border-radius: 40px;
     margin: 10px 10px 10px 25px;
     overflow: hidden;
     display: inline-block;
-    border: 5px solid transparent;
 }
-.card-portrait:hover {
+.card-portrait-border {
+    height: inherit;
+    width: inherit;
+    border-radius: 100%;
+    border: 5px solid red;
+}
+/*.card-portrait-border:hover {
     border-left-width: 5px;
     border-right-width: 5px;
     transform: rotate(270deg);
@@ -166,7 +170,7 @@ a.postbox-date:hover,
     border-bottom-color: blue;
     transition: border-top-color 1.5s linear, border-right-color 1.5s linear 1s, border-bottom-color 1.5s linear 2s;
 
-}
+}*/
 
 .card-information {
     font-family: STXihei;
