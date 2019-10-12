@@ -161,12 +161,17 @@ a.postbox-date:hover,
     border-bottom-color: blue;
     transition: border-top-color 1.5s linear, border-right-color 1.5s linear 1s, border-bottom-color 1.5s linear 2s;
 }
-.card-portrait:hover::after {
+.card-portrait-rotate {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin: 10px 10px 10px 25px;
+    float: left;
+}
+.card-portrait-rotate:hover {
     border-top: 5px solid blue;
-    border-left-width: 5px;
-    border-right-width: 5px;
     transform: rotate(270deg);
-    transition: transform 4s linear 0s, border-left-width 0s linear 3.5s;
+    transition: transform 4s linear 0s;
 }
 
 .card-information {
