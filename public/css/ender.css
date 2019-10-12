@@ -160,7 +160,7 @@ a.postbox-date:hover,
     border-radius: 40px;
     border: 5px solid red;
 }
-/*.card-portrait-border:hover {
+.card-portrait-border:hover {
     border-left-width: 5px;
     border-right-width: 5px;
     transform: rotate(270deg);
@@ -170,7 +170,7 @@ a.postbox-date:hover,
     border-bottom-color: blue;
     transition: border-top-color 1.5s linear, border-right-color 1.5s linear 1s, border-bottom-color 1.5s linear 2s;
 
-}*/
+}
 
 .card-information {
     font-family: STXihei;
