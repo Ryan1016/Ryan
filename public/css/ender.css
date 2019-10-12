@@ -151,7 +151,6 @@ a.postbox-date:hover,
     width: 80px;
     border-radius: 40px;
     margin: 10px 10px 10px 25px;
-    overflow: hidden;
     display: inline-block;
 }
 .card-portrait::before {
