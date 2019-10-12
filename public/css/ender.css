@@ -155,19 +155,24 @@ a.postbox-date:hover,
     display: inline-block;
 }
 .card-portrait::before {
-    border: 5px solid red;
+    border: 5px solid transparent;
 }
 .card-portrait:hover::before {
     border-top-color: blue;
     border-right-color: blue;
-    transition: border-top-color 0.4s linear, border-right-color 0.4s linear 0.4s;
+    border-bottom-color: blue;
+    transition: border-top-color 1s linear, border-right-color 1s linear 1s, border-bottom-color 1s linear 2s;
 }
-/*.card-portrait:hover::after {
+.card-portrait::after {
+    border: 0 solid transparent;
+}
+.card-portrait:hover::after {
     border-top: 5px solid blue;
-    border-right: 5px solid blue;
-    transform: rotate(180deg);
-    transition: transform ;
-}*/
+    border-left-width: 5px;
+    border-right-width: 5px;
+    transform: rotate(270deg);
+    transition: transform 3s linear 0s, border-left-width 0s linear 3s;
+}
 
 .card-information {
     font-family: STXihei;
