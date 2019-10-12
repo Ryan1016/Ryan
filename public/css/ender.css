@@ -153,6 +153,12 @@ a.postbox-date:hover,
     margin: 10px 10px 10px 25px;
     overflow: hidden;
     display: inline-block;
+    border: 5px solid red;
+}
+.card-portrait-border {
+    width: inherit;
+    height: inherit;
+    position: absolute;
 }
 /*.card:hover .card-portrait {
     transfrom: 
