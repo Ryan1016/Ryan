@@ -491,16 +491,16 @@ a.pagination-item:hover {
   color: #90a959;
 }
 
-/* LightSeaGreen */
+/* Teal  */
 .theme-base-0c .sidebar,
 .theme-base-0c .sidebar-toggle:active,
 .theme-base-0c #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: LightSeaGreen;
+  background-color: Teal;
 }
 .theme-base-0c .container a,
 .theme-base-0c .sidebar-toggle,
 .theme-base-0c .related-posts li a:hover {
-  color: LightSeaGreen;
+  color: Teal;
 }
 
 /* Blue */
