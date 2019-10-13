@@ -109,7 +109,6 @@ a.postbox-name:hover,
 a.postbox-date:hover,
 .postbox:hover a.postbox-name,
 .postbox:hover a.postbox-date {
-    color: LightSeaGreen;
     text-decoration: none;
     transition: 0.4s;
     background-color: rgba(0,0,0,.05);
@@ -153,7 +152,7 @@ a.postbox-date:hover,
     margin: 10px 10px 10px 25px;
     overflow: hidden;
     display: inline-block;
-    border: 6px groove transparent;
+    border: 6px outset transparent;
 }
 .card-portrait:hover {
     border-top-color: SteelBlue;
