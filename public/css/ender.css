@@ -168,7 +168,7 @@ a.postbox-date:hover,
     transform: rotate(850deg);
     transition: 0.8s ease-out;
 }
-.card-portrait:hover img.card-portrait {
+.card-portrait:hover a {
     transform: rotate(-850deg);
     transition: 0.8s ease-out;
 }
