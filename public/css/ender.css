@@ -6,13 +6,6 @@
     width: 100%;
 }
 
-/*.container a{
-    color: black !important;
-}
-.container a:hover{
-    color: LightSeaGreen !important;
-}*/
-
 #id_footer {
     height: 1.5rem; /*设定footer高度*/
     position: fixed; /*设定footer绝对位置在底部*/
@@ -28,7 +21,7 @@ pre code{
 }
 
 body {
-    background-image: url(/public/image/poster-about.jpg);
+    background-image: url(/public/image/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover !important; 
@@ -124,7 +117,7 @@ a.postbox-date:hover,
     float: right;
     top: 0;
     right: -40%;
-    background-image: url(/public/image/lalala.png);
+    background-image: url(/public/image/card-background.png);
     text-align: center;
     overflow-x: hidden;
 }

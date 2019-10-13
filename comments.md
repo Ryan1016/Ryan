@@ -2,7 +2,8 @@
 layout: page
 title: 留言
 ---
-交换友链可以在评论区留言~
+
+### Friends
 
 {% for friend in site.friends %}
 <div class="card">
@@ -15,5 +16,7 @@ title: 留言
     </div>
 </div>
 {% endfor %}
+
+欢迎大家来交换友链啦啦啦~
 
 {% include valine.html %}
