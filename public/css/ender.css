@@ -153,11 +153,11 @@ a.postbox-date:hover,
     margin: 10px 10px 10px 25px;
     overflow: hidden;
     display: inline-block;
-    border: 6px double transparent;
+    border: 6px groove transparent;
 }
 .card-portrait:hover {
-    border-top-color: Orchid;
-    border-bottom-color: Orchid;
+    border-top-color: LightCoral ;
+    border-bottom-color: LightCoral ;
     transform: rotate(675deg);
     transition: 0.8s ease-out;
 }
