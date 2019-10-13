@@ -152,7 +152,7 @@ a.postbox-date:hover,
     margin: 10px 10px 10px 25px;
     overflow: hidden;
     display: inline-block;
-    border: 6px outset transparent;
+    border: 5px solid transparent;
 }
 .card-portrait:hover {
     border-top-color: SteelBlue;
