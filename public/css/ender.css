@@ -158,12 +158,12 @@ a.postbox-date:hover,
 .card-portrait:hover {
     border-top-color: SkyBlue;
     border-bottom-color: SkyBlue;
-    transform: rotate(675deg);
+    transform: rotate(845deg);
     transition: 0.8s ease-out;
 }
 .card-portrait:hover a {
     display: block;
-    transform: rotate(-675deg);
+    transform: rotate(-845deg);
     transition: 0.8s ease-out;
 }
 
