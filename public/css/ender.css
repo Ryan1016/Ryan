@@ -165,8 +165,12 @@ a.postbox-date:hover,
 .card-portrait:hover {
     border-top-color: blue;
     border-bottom-color: blue;
-    transform: rotate(880deg);
-    transition: 1.5s ease-out;
+    transform: rotate(850deg);
+    transition: 0.8s ease-out;
+}
+.card-portrait:hover img.card-portrait {
+    transform: rotate(-850deg);
+    transition: 0.8s ease-out;
 }
 
 .card-information {
