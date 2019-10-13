@@ -169,6 +169,7 @@ a.postbox-date:hover,
     transition: 0.8s ease-out;
 }
 .card-portrait:hover a {
+    display: block;
     transform: rotate(-850deg);
     transition: 0.8s ease-out;
 }
