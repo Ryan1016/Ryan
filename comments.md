@@ -8,7 +8,7 @@ title: 留言
 <div class="card">
     <div class="card-portrait">
         <a href="{{ friend.src }}"><img src="{{ friend.portrait }}"></a>
-        <div class="card-portrait-rotate"></div>
+        <div class="card-portrait-border"></div>
     </div>
     <div class="card-information">
         <div style="text-align:left; font-size:28px">{{ friend.name }}</div>
