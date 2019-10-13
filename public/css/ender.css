@@ -156,8 +156,8 @@ a.postbox-date:hover,
     border: 8px groove transparent;
 }
 .card-portrait:hover {
-    border-top-color: RoyalBlue;
-    border-bottom-color: Sienna;
+    border-top-color: black;
+    border-bottom-color: black;
     transform: rotate(850deg);
     transition: 0.8s ease-out;
 }
