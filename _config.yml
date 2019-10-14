@@ -190,7 +190,7 @@ sidebar:
     enable: true
     img: /public/image/spider-man.jpg # 头像的地址
     info: <br>SYSU18级在读<br>计算机类<br>喜欢捣鼓<br>热爱超英<br>坎爷nb # 头像背后的信息
-  description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=2&id=441532&auto=0&height=32"></iframe>'
+  description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0.5em" width=100% height=52 src="//music.163.com/outchain/player?type=2&id=441532&auto=0&height=32"></iframe>'
   social:
   - title: 1422112890 # qq
     class: 'fab fa-qq fa-fw'
