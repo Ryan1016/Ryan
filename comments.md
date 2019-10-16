@@ -8,7 +8,7 @@ title: 留言
 {% for friend in site.friends %}
 <div class="card">
     <div class="card-portrait">
-        <a text = "{{ friend.name }}" href="{{ friend.src }}"><img alt = "{{ friend.name }}" src="{{ friend.portrait }}"></a>
+        <a href="{{ friend.src }}"><img src="{{ friend.portrait }}">{{ friend.name }}</a>
     </div>
     <div class="card-information">
         <div style="text-align:left; font-size:28px">{{ friend.name }}</div>
