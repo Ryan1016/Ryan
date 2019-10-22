@@ -165,4 +165,9 @@ a.postbox-date:hover,
     margin: 15px 40px 15px 5px;
     display: inline-block;
 }
+@media (max-width: 30em) {
+    .card-information {
+        display: none;
+    }
+}
 /*友链卡片效果end*/
