@@ -165,7 +165,7 @@ a.postbox-date:hover,
     margin: 15px 40px 15px 5px;
     display: inline-block;
 }
-@media (max-width: 30em) {
+@media (max-width: 60em) {
     .card-information {
         display: none;
     }
