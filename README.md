@@ -46,10 +46,12 @@ permalink: /about
 
 - [ ] 改变Live2D模型/尝试自己搭建API
 - [ ] 继续进行博客的改造
-    - [ ] 重新设计主页
-    - [ ] 主页增加友链
+    - [x] 重新设计主页
     - [x] 背景图片设配不同设备（pc、ipad、Android、iphone）
     - [x] 调整代码块字体样式及大小
+- [ ] mermaid不显示bug修复
+- [ ] markdown表格不显示bug修复
+- [ ] 重新设计404页
 
 ## 历程
 
