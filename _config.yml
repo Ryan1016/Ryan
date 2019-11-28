@@ -74,12 +74,12 @@ head: # 删改前确定知道自己在做什么
     value: 'shortcut icon'
   - key: href
     value: /public/image/spider-man.jpg
-#- tag: link # 下面是博客的css，有些插件的css是单独在插件里引用的，假如需要自己的css可以仿照去加在后面
-#  var:
-#  - key: rel
-#    value: stylesheet
-#  - key: href
-#    value: /public/css/syntax.css
+- tag: link # 下面是博客的css，有些插件的css是单独在插件里引用的，假如需要自己的css可以仿照去加在后面
+  var:
+  - key: rel
+    value: stylesheet
+  - key: href
+    value: /public/css/syntax.css
 - tag: link
   var:
   - key: rel
@@ -169,7 +169,7 @@ script: # 需要在正文前调用的脚本
     value: true
 
 PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己定制，将定制的js和css替换我的/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
-  enable: true
+  enable: false
   script:
     - src: //cdn.jsdelivr.net/npm/prismjs/components/prism-core.min.js
       stylesheet: //cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css
