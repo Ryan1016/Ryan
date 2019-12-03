@@ -14,6 +14,7 @@
   {% for node in site.script %}
   <script {% for var in node.var %} {{ var.key }}="{{ var.value }}" {% endfor %}></script>
   {% endfor %}
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript">
     $('pre').addClass("line-numbers").css("white-space", "pre-wrap");
   </script>
