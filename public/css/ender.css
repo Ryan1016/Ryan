@@ -15,11 +15,6 @@
     margin-top: -1.5rem;
 }
 
-pre code{
-    font-size: 100% !important;
-    line-height: 50% !important;
-}
-
 body {
     background-image: url(/public/image/background.jpg);
     background-repeat: no-repeat;
