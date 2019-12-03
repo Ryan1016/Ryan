@@ -8,7 +8,7 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: #bf616a; /*#ccc;*/
+	color: #ccc;
 	background: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-size: 1em;
@@ -47,6 +47,7 @@ pre[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;
+	background: transparent;
 }
 
 .token.comment,
