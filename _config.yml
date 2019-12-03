@@ -314,6 +314,10 @@ friends:
     src: https://52hert-z.github.io
     description: 计科三人组×2
     portrait: /public/image/52hert-z.jpg
+  - name: 米萨卡
+    src: https://misaka-mikodo.github.io
+    description: 浩腾神仙~
+    portrait:  /public/image/misaka.jpeg
   
 
 page404:
