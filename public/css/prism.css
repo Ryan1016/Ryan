@@ -11,7 +11,7 @@ pre[class*="language-"] {
 	color: #ccc;
 	background: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
+	font-size: 0.9em;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -47,6 +47,7 @@ pre[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;
+	color: #bf616a;
 	background: transparent;
 }
 
@@ -55,7 +56,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #999;
+	color: teal; /*#999;*/
 }
 
 .token.punctuation {
