@@ -47,8 +47,8 @@ pre[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;
-	color: #bf616a;
-	background: transparent;
+	/*color: #bf616a;
+	background: transparent;*/
 }
 
 .token.comment,
@@ -161,7 +161,7 @@ pre[class*="language-"].line-numbers > code {
 
 		.line-numbers-rows > span:before {
 			content: counter(linenumber);
-			color: red;
+			color: #999;
 			display: block;
 			padding-right: 0.8em;
 			text-align: right;
