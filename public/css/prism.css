@@ -126,7 +126,6 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"].line-numbers {
-	color: #999;
 	position: relative;
 	padding-left: 3.8em;
 	counter-reset: linenumber;
@@ -162,7 +161,7 @@ pre[class*="language-"].line-numbers > code {
 
 		.line-numbers-rows > span:before {
 			content: counter(linenumber);
-			color: #999;
+			color: red;
 			display: block;
 			padding-right: 0.8em;
 			text-align: right;
