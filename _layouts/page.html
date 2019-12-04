@@ -15,8 +15,8 @@
   <script {% for var in node.var %} {{ var.key }}="{{ var.value }}" {% endfor %}></script>
   {% endfor %}
   <script>
-    $(document).ready(function(){
-     $("pre").addClass("line-numbers");
+    $(document).ready(function () {
+      $("pre").addClass("line-numbers").css("white-space", "pre-wrap");
     });
   </script>
   <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
