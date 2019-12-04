@@ -20,13 +20,13 @@ int main(){
 
 <pre class="line-numbers">
     <code class="language-cpp">
-        #include <iostream>
-        using namespace std;
+#include <iostream>
+using namespace std;
 
-        int main(){
-            cout << "Hello world!" << endl;
-            return 0;
-        }
+int main(){
+    cout << "Hello world!" << endl;
+    return 0;
+}
     </code>
 </pre>
 
