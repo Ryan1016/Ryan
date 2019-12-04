@@ -14,21 +14,6 @@
   {% for node in site.script %}
   <script {% for var in node.var %} {{ var.key }}="{{ var.value }}" {% endfor %}></script>
   {% endfor %}
-  <script>
-    $(document).ready(function () {
-      var doc_pre = $("#post_content pre");
-      doc_pre.each(function () {
-        var class_val = $(this).attr('class');
-        var class_arr = new Array();
-        class_arr = class_val.split(';');
-        class_arr = class_arr['0'].split(':');
-        var lan_class = 'language-' + class_arr['1'];
-        var pre_content = '<code class="' + lan_class + '">' + $(this).html() + '</code>';
-        $(this).html(pre_content);
-        $(this).attr("class", 'line-numbers ' + lan_class);
-      });
-    });
-  </script>
   <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
   <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
