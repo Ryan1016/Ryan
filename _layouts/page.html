@@ -16,7 +16,7 @@
   {% endfor %}
   <script>
     $(document).ready(function () {
-      $('pre').addClass("line-numbers").css("white-space", "pre-wrap");
+      $(this).attr("class", 'line-numbers ' + lan_class);
     });
   </script>
   <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
